@@ -1,0 +1,2177 @@
+---------------------------------------------------------------
+[ 2017-10-20T10:38:53+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/index
+[ info ] 127.0.0.1/thinkphp5/public/admin/index [运行时间：0.750892s][吞吐率：1.33req/s] [内存消耗：1,858.95kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\project\workspace\thinkphp5\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T10:38:56+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/User/login.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/User/login.html [运行时间：0.063801s][吞吐率：15.67req/s] [内存消耗：1,884.98kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'User',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->login[ E:\project\workspace\thinkphp5\application\admin\controller\User.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\User\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T10:38:56+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/captcha.html
+[ info ] 127.0.0.1/thinkphp5/public/captcha.html [运行时间：0.309712s][吞吐率：3.23req/s] [内存消耗：1,505.77kb] [文件加载：41]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'image/webp,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/User/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ E:\project\workspace\thinkphp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T10:38:57+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/index.php
+[ info ] 127.0.0.1/thinkphp5/public/index.php [运行时间：0.158732s][吞吐率：6.30req/s] [内存消耗：1,519.83kb] [文件加载：46]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'accept-encoding' => 'compress,gzip',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T10:39:12+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp5/public/admin/user/checkLogin.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/user/checkLogin.html [运行时间：0.367055s][吞吐率：2.72req/s] [内存消耗：2,945.04kb] [文件加载：61]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'checkLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/User/login.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'zpmyi',
+)
+[ info ] [ RUN ] app\admin\controller\User->checkLogin[ E:\project\workspace\thinkphp5\application\admin\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.044941s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.086223s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `name` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.010717s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_time`=1508467152,`login_count`=39  WHERE  `id` = 1 [ RunTime:0.021052s ]
+---------------------------------------------------------------
+[ 2017-10-20T10:39:13+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/index/index.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/index/index.html [运行时间：0.278959s][吞吐率：3.58req/s] [内存消耗：2,910.41kb] [文件加载：61]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/User/login.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\project\workspace\thinkphp5\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001557s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.017130s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.001194s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.058285s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.010936s ]
+---------------------------------------------------------------
+[ 2017-10-20T10:39:17+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.234403s][吞吐率：4.27req/s] [内存消耗：3,199.22kb] [文件加载：64]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000770s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.037888s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.010754s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010894s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000682s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.009784s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000613s ]
+---------------------------------------------------------------
+[ 2017-10-20T10:39:41+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.096999s][吞吐率：10.31req/s] [内存消耗：3,023.95kb] [文件加载：62]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000589s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.005073s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.002046s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.014297s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.004856s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000312s ]
+---------------------------------------------------------------
+[ 2017-10-20T10:43:28+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.112451s][吞吐率：8.89req/s] [内存消耗：3,200.60kb] [文件加载：64]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000935s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.010436s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000504s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012072s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.005961s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000346s ]
+---------------------------------------------------------------
+[ 2017-10-20T10:43:30+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp5/public/admin/Article/Article/delAll
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/Article/delAll [运行时间：0.034805s][吞吐率：28.73req/s] [内存消耗：1,779.37kb] [文件加载：50]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'Article',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '23',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 
+  array (
+    0 => '12',
+    1 => '11',
+  ),
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T10:44:14+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.102426s][吞吐率：9.76req/s] [内存消耗：3,200.68kb] [文件加载：64]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000919s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.007393s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.011583s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.004814s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[ 2017-10-20T10:44:20+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp5/public/admin/Article/delAll.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/delAll.html [运行时间：0.048466s][吞吐率：20.63req/s] [内存消耗：1,743.74kb] [文件加载：47]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'delAll',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 
+  array (
+    0 => '11',
+    1 => '10',
+    2 => '9',
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\Article->delAll[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T10:54:14+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.106765s][吞吐率：9.37req/s] [内存消耗：3,026.88kb] [文件加载：62]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000735s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.008941s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006376s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.004850s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000265s ]
+---------------------------------------------------------------
+[ 2017-10-20T10:54:20+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp5/public/admin/Article/delAll.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/delAll.html [运行时间：0.076288s][吞吐率：13.11req/s] [内存消耗：1,936.05kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'delAll',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 
+  array (
+    0 => '11',
+    1 => '10',
+    2 => '9',
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\Article->delAll[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000787s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+---------------------------------------------------------------
+[ 2017-10-20T10:54:28+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.095703s][吞吐率：10.45req/s] [内存消耗：3,026.88kb] [文件加载：62]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000657s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.010694s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.005786s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.001942s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.005920s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:35:27+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.106318s][吞吐率：9.41req/s] [内存消耗：3,026.88kb] [文件加载：62]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002020s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.006595s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.005258s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.005909s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000298s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:35:30+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp5/public/admin/Article/delAll.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/delAll.html [运行时间：0.069347s][吞吐率：14.42req/s] [内存消耗：1,936.07kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'delAll',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '23',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 
+  array (
+    0 => '12',
+    1 => '11',
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\Article->delAll[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000678s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+---------------------------------------------------------------
+[ 2017-10-20T13:36:19+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.103128s][吞吐率：9.70req/s] [内存消耗：3,027.12kb] [文件加载：62]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000715s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.005774s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009382s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.009001s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000281s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:36:24+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp5/public/admin/Article/delAll.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/delAll.html [运行时间：0.044505s][吞吐率：22.47req/s] [内存消耗：1,936.59kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'delAll',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '112',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 
+  array (
+    0 => '12',
+    1 => '11',
+    2 => '10',
+    3 => '9',
+    4 => '8',
+    5 => '7',
+    6 => '6',
+    7 => '5',
+    8 => '4',
+    9 => '3',
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\Article->delAll[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000835s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+---------------------------------------------------------------
+[ 2017-10-20T13:36:35+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.106060s][吞吐率：9.43req/s] [内存消耗：3,027.20kb] [文件加载：62]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001068s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.009782s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008403s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.006179s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:36:37+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp5/public/admin/Article/delAll.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/delAll.html [运行时间：0.041382s][吞吐率：24.17req/s] [内存消耗：1,936.65kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'delAll',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '112',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 
+  array (
+    0 => '12',
+    1 => '11',
+    2 => '10',
+    3 => '9',
+    4 => '8',
+    5 => '7',
+    6 => '6',
+    7 => '5',
+    8 => '4',
+    9 => '3',
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\Article->delAll[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000768s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+---------------------------------------------------------------
+[ 2017-10-20T13:37:56+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.099547s][吞吐率：10.05req/s] [内存消耗：3,027.67kb] [文件加载：62]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000699s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.005861s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.005740s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.008137s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:37:58+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp5/public/admin/Article/delAll.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/delAll.html [运行时间：0.066375s][吞吐率：15.07req/s] [内存消耗：1,791.46kb] [文件加载：51]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'delAll',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '112',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 
+  array (
+    0 => '12',
+    1 => '11',
+    2 => '10',
+    3 => '9',
+    4 => '8',
+    5 => '7',
+    6 => '6',
+    7 => '5',
+    8 => '4',
+    9 => '3',
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\Article->delAll[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant id - assumed 'id'[E:\project\workspace\thinkphp5\application\admin\controller\Article.php:110]
+---------------------------------------------------------------
+[ 2017-10-20T13:38:14+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.112351s][吞吐率：8.90req/s] [内存消耗：3,027.43kb] [文件加载：62]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000591s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.016631s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.005663s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.005059s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000304s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:38:16+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp5/public/admin/Article/delAll.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/delAll.html [运行时间：0.032041s][吞吐率：31.21req/s] [内存消耗：1,646.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'delAll',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '112',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 
+  array (
+    0 => '12',
+    1 => '11',
+    2 => '10',
+    3 => '9',
+    4 => '8',
+    5 => '7',
+    6 => '6',
+    7 => '5',
+    8 => '4',
+    9 => '3',
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\Article->delAll[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T13:38:47+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.094820s][吞吐率：10.55req/s] [内存消耗：3,026.66kb] [文件加载：62]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000652s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.009181s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.001283s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006078s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.007999s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000455s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:39:00+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp5/public/admin/Article/delAll.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/delAll.html [运行时间：0.180922s][吞吐率：5.53req/s] [内存消耗：2,844.32kb] [文件加载：59]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'delAll',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '23',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 
+  array (
+    0 => '12',
+    1 => '11',
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\Article->delAll[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000708s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.006900s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 12 [ RunTime:0.024143s ]
+[ sql ] [ SQL ] DELETE FROM `article`    WHERE  `id` = 12 [ RunTime:0.036195s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 11 [ RunTime:0.001402s ]
+[ sql ] [ SQL ] DELETE FROM `article`    WHERE  `id` = 11 [ RunTime:0.001306s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:39:05+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.123665s][吞吐率：8.09req/s] [内存消耗：3,015.50kb] [文件加载：62]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000750s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.044914s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.006073s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.007288s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:41:52+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.200482s][吞吐率：4.99req/s] [内存消耗：3,189.24kb] [文件加载：64]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000780s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.030148s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.019912s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.015369s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.001093s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:41:55+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp5/public/admin/Article/delAll.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/delAll.html [运行时间：0.074333s][吞吐率：13.45req/s] [内存消耗：2,840.95kb] [文件加载：59]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'delAll',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 
+  array (
+    0 => '10',
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\Article->delAll[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000985s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.024842s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 10 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] DELETE FROM `article`    WHERE  `id` = 10 [ RunTime:0.000333s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:41:55+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.119277s][吞吐率：8.38req/s] [内存消耗：3,011.71kb] [文件加载：62]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003656s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.008872s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.012718s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.008159s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000685s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:42:01+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp5/public/admin/Article/delAll.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/delAll.html [运行时间：0.071800s][吞吐率：13.93req/s] [内存消耗：2,840.91kb] [文件加载：59]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'delAll',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 
+  array (
+    0 => '9',
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\Article->delAll[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000608s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.019275s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 9 [ RunTime:0.000413s ]
+[ sql ] [ SQL ] DELETE FROM `article`    WHERE  `id` = 9 [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:42:01+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.091339s][吞吐率：10.95req/s] [内存消耗：3,008.07kb] [文件加载：62]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000703s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.008584s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.009215s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.010764s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000611s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:48:15+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.105064s][吞吐率：9.52req/s] [内存消耗：3,179.84kb] [文件加载：64]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000916s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.007857s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008062s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.009086s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000393s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:48:44+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.103871s][吞吐率：9.63req/s] [内存消耗：3,179.88kb] [文件加载：64]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000630s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.009189s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.010407s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.006799s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000314s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:48:47+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp5/public/admin/Article/delAll.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/delAll.html [运行时间：0.059667s][吞吐率：16.76req/s] [内存消耗：2,840.91kb] [文件加载：59]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'delAll',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '10',
+  'accept' => '*/*',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+  'id' => 
+  array (
+    0 => '8',
+  ),
+)
+[ info ] [ RUN ] app\admin\controller\Article->delAll[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000579s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.006214s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 8 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] DELETE FROM `article`    WHERE  `id` = 8 [ RunTime:0.000305s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:48:49+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.100774s][吞吐率：9.92req/s] [内存消耗：3,000.41kb] [文件加载：62]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000697s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.007196s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007005s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.008091s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000387s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:48:54+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/show/id/7.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/show/id/7.html [运行时间：0.472320s][吞吐率：2.12req/s] [内存消耗：2,857.38kb] [文件加载：60]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\admin\controller\Article->show[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-show.html [ array (
+  0 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000934s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.349371s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000613s ]
+[ sql ] [ SQL ] UPDATE `article`  SET `glance`=2  WHERE  `id` = 7 [ RunTime:0.000563s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:49:00+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/show/id/2.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/show/id/2.html [运行时间：0.075950s][吞吐率：13.17req/s] [内存消耗：2,859.24kb] [文件加载：60]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Article->show[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-show.html [ array (
+  0 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000699s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.011881s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] UPDATE `article`  SET `glance`=6  WHERE  `id` = 2 [ RunTime:0.000430s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:50:09+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/show/id/2.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/show/id/2.html [运行时间：0.074955s][吞吐率：13.34req/s] [内存消耗：2,859.24kb] [文件加载：60]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Article->show[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-show.html [ array (
+  0 => 'article',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000847s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.009778s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] UPDATE `article`  SET `glance`=7  WHERE  `id` = 2 [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:57:19+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.089664s][吞吐率：11.15req/s] [内存消耗：3,000.27kb] [文件加载：62]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000775s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.007693s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008289s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000391s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.010111s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000356s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:57:21+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Product/productBrand.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Product/productBrand.html [运行时间：0.098229s][吞吐率：10.18req/s] [内存消耗：2,910.27kb] [文件加载：61]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Product',
+    2 => 'productBrand',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Product->productBrand[ E:\project\workspace\thinkphp5\application\admin\controller\Product.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\public\codeing.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000739s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007361s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.008251s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000467s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:57:24+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Picture/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Picture/main.html [运行时间：0.267061s][吞吐率：3.74req/s] [内存消耗：3,050.34kb] [文件加载：64]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Picture',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Product/productBrand.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Picture->main[ E:\project\workspace\thinkphp5\application\admin\controller\Picture.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\picture\picture-list.html [ array (
+  0 => 'picInfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000733s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pic_info` [ RunTime:0.068718s ]
+[ sql ] [ SQL ] SELECT * FROM `pic_info` [ RunTime:0.001337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pic` [ RunTime:0.048019s ]
+[ sql ] [ SQL ] SELECT * FROM `pic` WHERE  `pic_id` = '1508297077722' [ RunTime:0.010390s ]
+[ sql ] [ SQL ] SELECT * FROM `pic` WHERE  `pic_id` = '1507875583099' [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SELECT * FROM `pic` WHERE  `pic_id` = '1507875711935' [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.015167s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.001280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.018298s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000476s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:57:44+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.086745s][吞吐率：11.53req/s] [内存消耗：3,000.27kb] [文件加载：62]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Picture/main.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000698s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.007261s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008363s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.006250s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000702s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:58:01+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.080687s][吞吐率：12.39req/s] [内存消耗：3,000.27kb] [文件加载：62]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000683s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.007417s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.007533s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.007344s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000347s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:58:02+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/addArticle.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/addArticle.html [运行时间：0.072965s][吞吐率：13.71req/s] [内存消耗：1,867.28kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'addArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->addArticle[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T13:58:51+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.118922s][吞吐率：8.41req/s] [内存消耗：3,000.53kb] [文件加载：62]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+  0 => 'articles',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000648s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.007793s ]
+[ sql ] [ SQL ] SELECT * FROM `article` [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.005901s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.034755s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000384s ]
+---------------------------------------------------------------
+[ 2017-10-20T13:58:53+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/addArticle.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/addArticle.html [运行时间：0.045138s][吞吐率：22.15req/s] [内存消耗：1,867.28kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'addArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->addArticle[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T13:59:23+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/addArticle.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/addArticle.html [运行时间：0.054941s][吞吐率：18.20req/s] [内存消耗：1,867.28kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'addArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->addArticle[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-10-20T13:59:55+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Picture/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Picture/main.html [运行时间：0.093927s][吞吐率：10.65req/s] [内存消耗：3,050.38kb] [文件加载：64]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Picture',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Picture->main[ E:\project\workspace\thinkphp5\application\admin\controller\Picture.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\picture\picture-list.html [ array (
+  0 => 'picInfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000635s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pic_info` [ RunTime:0.008186s ]
+[ sql ] [ SQL ] SELECT * FROM `pic_info` [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `pic` [ RunTime:0.005717s ]
+[ sql ] [ SQL ] SELECT * FROM `pic` WHERE  `pic_id` = '1508297077722' [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT * FROM `pic` WHERE  `pic_id` = '1507875583099' [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SELECT * FROM `pic` WHERE  `pic_id` = '1507875711935' [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.008649s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `id` = 1 ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `role` [ RunTime:0.008021s ]
+[ sql ] [ SQL ] SELECT * FROM `role` WHERE (  `id` = 1 ) AND `role`.`deletetime` IS NULL LIMIT 1 [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2017-10-20T14:00:09+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Picture/show/id/36.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Picture/show/id/36.html [运行时间：0.121606s][吞吐率：8.22req/s] [内存消耗：2,801.85kb] [文件加载：58]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Picture',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Picture/main.html',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283252,1503299515,1503318272; PHPSESSID=1ulvbldbh3pv7e1pfm3ih8rju2',
+)
+[ info ] [ PARAM ] array (
+  'id' => '36',
+)
+[ info ] [ RUN ] app\admin\controller\Picture->show[ E:\project\workspace\thinkphp5\application\admin\controller\Picture.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\picture\picture-show.html [ array (
+  0 => 'pics',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000853s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SELECT `t0`.* from `pic` `t0` LEFT JOIN `pic_info` `t1` ON 
+				`t0`.`pic_id` = `t1`.`pic_id` WHERE `t1`.`id`=36 [ RunTime:0.025965s ]

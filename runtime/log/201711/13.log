@@ -1,0 +1,85 @@
+---------------------------------------------------------------
+[ 2017-11-13T10:53:57+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] www.myblog.com/ [运行时间：0.417355s][吞吐率：2.40req/s] [内存消耗：1,533.53kb] [文件加载：46]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-13T10:53:57+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ info ] api.myblog.com/ [运行时间：0.035040s][吞吐率：28.54req/s] [内存消耗：1,533.66kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'accept' => '*/*',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-13T10:53:57+08:00 ] 127.0.0.1 127.0.0.1 GET HTTP://www.myblog.com/
+[ info ] www.myblog.comHTTP://www.myblog.com/ [运行时间：0.062437s][吞吐率：16.02req/s] [内存消耗：1,533.88kb] [文件加载：46]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'accept' => '*/*',
+  'proxy-connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-13T13:18:13+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ info ] www.myblog.com/favicon.ico [运行时间：0.647085s][吞吐率：1.55req/s] [内存消耗：1,534.13kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myblog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8,en;q=0.6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,4200 @@
+---------------------------------------------------------------
+[ 2017-11-03T09:20:04+08:00 ] 127.0.0.1 127.0.0.1 POST /user/icon
+[ info ] api.myblog.com/user/icon [运行时间：0.624328s][吞吐率：1.60req/s] [内存消耗：1,945.13kb] [文件加载：55]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'upload_head_icon',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '191887',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarys2X26KkBlbgGmaDZ',
+  'cache-control' => 'no-cache',
+  'postman-token' => '06372db8-0a97-3c9a-9f4a-8d6ac4dce9a1',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ RUN ] app\api\controller\User->upload_head_icon[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to a member function move() on a non-object[E:\project\workspace\thinkphp5\application\api\controller\Base.php:168]
+---------------------------------------------------------------
+[ 2017-11-03T09:20:18+08:00 ] 127.0.0.1 127.0.0.1 POST /user/icon
+[ info ] api.myblog.com/user/icon [运行时间：0.041101s][吞吐率：24.33req/s] [内存消耗：1,944.96kb] [文件加载：55]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'upload_head_icon',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '191887',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarytJSrzPqmB7adjYNu',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7bb31921-803c-a1f8-742d-4f096ebcfbd3',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ RUN ] app\api\controller\User->upload_head_icon[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to a member function move() on a non-object[E:\project\workspace\thinkphp5\application\api\controller\Base.php:168]
+---------------------------------------------------------------
+[ 2017-11-03T09:20:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php
+[ info ] api.myblog.com/index.php [运行时间：0.139908s][吞吐率：7.15req/s] [内存消耗：1,530.70kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'accept-encoding' => 'compress,gzip',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T09:21:45+08:00 ] 127.0.0.1 127.0.0.1 POST /user/icon
+[ info ] api.myblog.com/user/icon [运行时间：0.031219s][吞吐率：32.03req/s] [内存消耗：1,563.28kb] [文件加载：47]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'upload_head_icon',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '191887',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryFkpk5MFQyLvfOwuj',
+  'cache-control' => 'no-cache',
+  'postman-token' => '0a858160-e1c4-ed9b-a67c-8c40f3d92690',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [64]Cannot use think\controller as controller because the name is already in use[E:\project\workspace\thinkphp5\application\api\controller\Base.php:7]
+---------------------------------------------------------------
+[ 2017-11-03T09:22:09+08:00 ] 127.0.0.1 127.0.0.1 POST /user/icon
+[ info ] api.myblog.com/user/icon [运行时间：0.036954s][吞吐率：27.06req/s] [内存消耗：1,945.15kb] [文件加载：55]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'upload_head_icon',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '191887',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryES3grgBIwqsELBA0',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c01e9822-deef-8836-e1c1-3c8e3a16d597',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ RUN ] app\api\controller\User->upload_head_icon[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to a member function move() on a non-object[E:\project\workspace\thinkphp5\application\api\controller\Base.php:168]
+---------------------------------------------------------------
+[ 2017-11-03T09:24:48+08:00 ] 127.0.0.1 127.0.0.1 POST /user/icon
+[ info ] api.myblog.com/user/icon [运行时间：0.059773s][吞吐率：16.73req/s] [内存消耗：1,945.15kb] [文件加载：55]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'upload_head_icon',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '191887',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryyIMusSPZ39WSsJvl',
+  'cache-control' => 'no-cache',
+  'postman-token' => '943e140f-6569-f460-0171-e7d2be03e4c1',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ RUN ] app\api\controller\User->upload_head_icon[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to a member function move() on a non-object[E:\project\workspace\thinkphp5\application\api\controller\Base.php:168]
+---------------------------------------------------------------
+[ 2017-11-03T09:25:51+08:00 ] 127.0.0.1 127.0.0.1 POST /user/icon
+[ info ] api.myblog.com/user/icon [运行时间：0.048962s][吞吐率：20.42req/s] [内存消耗：1,753.99kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'upload_head_icon',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '191887',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarybvWvhUTSCwzeIcH8',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6e9d6f0e-740a-029e-b592-f4974828b83a',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ RUN ] app\api\controller\User->upload_head_icon[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T09:26:38+08:00 ] 127.0.0.1 127.0.0.1 POST /user/icon
+[ info ] api.myblog.com/user/icon [运行时间：0.037039s][吞吐率：27.00req/s] [内存消耗：1,753.84kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'upload_head_icon',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '191887',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqkFzAwOkCYoBwOxd',
+  'cache-control' => 'no-cache',
+  'postman-token' => '44fb7bf0-84d7-ec43-c5c7-08e322ea627b',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ RUN ] app\api\controller\User->upload_head_icon[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T09:26:44+08:00 ] 127.0.0.1 127.0.0.1 POST /user/icon
+[ info ] api.myblog.com/user/icon [运行时间：0.036820s][吞吐率：27.16req/s] [内存消耗：1,753.84kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'upload_head_icon',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '191887',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryH9b7Xo8Fy7l6mthk',
+  'cache-control' => 'no-cache',
+  'postman-token' => '92bbc3fa-5ed4-c8c9-57fa-c5ef4a14008e',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ RUN ] app\api\controller\User->upload_head_icon[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T09:26:44+08:00 ] 127.0.0.1 127.0.0.1 POST /user/icon
+[ info ] api.myblog.com/user/icon [运行时间：0.033372s][吞吐率：29.97req/s] [内存消耗：1,753.84kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'upload_head_icon',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '191887',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary6IQ9jbFhV1APayAK',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fe362ffd-9903-0e04-063a-b881f430dbae',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ RUN ] app\api\controller\User->upload_head_icon[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T09:27:55+08:00 ] 127.0.0.1 127.0.0.1 POST /user/icon
+[ info ] api.myblog.com/user/icon [运行时间：0.069308s][吞吐率：14.43req/s] [内存消耗：1,945.95kb] [文件加载：55]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'upload_head_icon',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '191887',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarytgheE5o5XEsf4q5z',
+  'cache-control' => 'no-cache',
+  'postman-token' => '696633fb-4f90-27ad-ad6e-53148bf8ba66',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ RUN ] app\api\controller\User->upload_head_icon[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to a member function move() on a non-object[E:\project\workspace\thinkphp5\application\api\controller\Base.php:170]
+---------------------------------------------------------------
+[ 2017-11-03T09:28:33+08:00 ] 127.0.0.1 127.0.0.1 POST /user/icon
+[ info ] api.myblog.com/user/icon [运行时间：0.039933s][吞吐率：25.04req/s] [内存消耗：1,753.89kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'upload_head_icon',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '191887',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBJP3RW4BFWiVdOkh',
+  'cache-control' => 'no-cache',
+  'postman-token' => '04a13f50-607c-77dc-e416-36fff3740a76',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ RUN ] app\api\controller\User->upload_head_icon[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T09:29:09+08:00 ] 127.0.0.1 127.0.0.1 POST /user/icon
+[ info ] api.myblog.com/user/icon [运行时间：0.033145s][吞吐率：30.17req/s] [内存消耗：1,754.13kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'upload_head_icon',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '191887',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarypr99bgB4hddGRaGW',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cb174749-dfd4-2e42-6f70-6ca6efeadd93',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ RUN ] app\api\controller\User->upload_head_icon[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T09:29:49+08:00 ] 127.0.0.1 127.0.0.1 POST /user/icon
+[ info ] api.myblog.com/user/icon [运行时间：0.029184s][吞吐率：34.27req/s] [内存消耗：1,753.89kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'upload_head_icon',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '191887',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarybfWEQtBqRAC7dX67',
+  'cache-control' => 'no-cache',
+  'postman-token' => '3d58d0cd-2179-947a-0ad3-d9467439f31b',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ RUN ] app\api\controller\User->upload_head_icon[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T09:30:04+08:00 ] 127.0.0.1 127.0.0.1 POST /user/icon
+[ info ] api.myblog.com/user/icon [运行时间：0.039318s][吞吐率：25.43req/s] [内存消耗：1,753.79kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'upload_head_icon',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '191887',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryKr2SllCPhe0wrBmL',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b9621326-29e6-0730-ae18-1e436cd63d60',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ RUN ] app\api\controller\User->upload_head_icon[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T09:30:43+08:00 ] 127.0.0.1 127.0.0.1 POST /user/icon
+[ info ] api.myblog.com/user/icon [运行时间：0.034686s][吞吐率：28.83req/s] [内存消耗：1,753.95kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'upload_head_icon',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '191887',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryu8v5ZjtqgWt7kMSQ',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fb4741ec-9589-5394-8fa6-039d4b43668a',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ RUN ] app\api\controller\User->upload_head_icon[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T09:31:20+08:00 ] 127.0.0.1 127.0.0.1 POST /user/icon
+[ info ] api.myblog.com/user/icon [运行时间：0.031443s][吞吐率：31.80req/s] [内存消耗：1,754.14kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'upload_head_icon',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '191887',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryU2Skg06Op3FDbDua',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd2fc8b9e-7833-a454-2e1a-b2417b60c504',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ RUN ] app\api\controller\User->upload_head_icon[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T09:31:56+08:00 ] 127.0.0.1 127.0.0.1 POST /user/icon
+[ info ] api.myblog.com/user/icon [运行时间：0.032499s][吞吐率：30.77req/s] [内存消耗：1,755.91kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'upload_head_icon',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '191887',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqjCQG2pLm0aSfmB3',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1b313931-8a24-835e-50d3-c098a84e91ce',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ RUN ] app\api\controller\User->upload_head_icon[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T09:32:11+08:00 ] 127.0.0.1 127.0.0.1 POST /user/icon
+[ info ] api.myblog.com/user/icon [运行时间：0.599702s][吞吐率：1.67req/s] [内存消耗：2,615.98kb] [文件加载：55]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'upload_head_icon',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '191887',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryHasOkbG2Y6NB7r2M',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f658f8d6-0d46-2e86-6f82-d56f40a4fb20',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ RUN ] app\api\controller\User->upload_head_icon[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024444s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.100199s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `user_icon`='/icons/20171103\\796d204428655e35b6f3f695bfa6d16a.png'  WHERE  `id` = 35 [ RunTime:0.049253s ]
+---------------------------------------------------------------
+[ 2017-11-03T14:18:04+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.448740s][吞吐率：2.23req/s] [内存消耗：1,732.43kb] [文件加载：44]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '191887',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydVaoHAj0Mw4AwlSM',
+  'cache-control' => 'no-cache',
+  'postman-token' => '869427f0-61a3-a030-ec54-b98592937741',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '35',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T14:18:48+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.058299s][吞吐率：17.15req/s] [内存消耗：1,667.98kb] [文件加载：43]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '413',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3zgF5vJqA6fisug9',
+  'cache-control' => 'no-cache',
+  'postman-token' => '31be2d16-66da-6467-7fa8-4bcf5ee10a1c',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'password' => 'e6c5ce538f971e3df563003fac111111',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T14:19:18+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.512572s][吞吐率：1.95req/s] [内存消耗：2,575.73kb] [文件加载：60]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '413',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjZ5WS5OR78OPEw6v',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cfe17788-6bc0-d568-3e89-ba828fb5a426',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'password' => 'e6c5ce538f971e3df563003fac111111',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008511s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.043302s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.001217s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000929s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com AND `password` = e6c5ce538f971e3df563003fac6e45e0' at line 1[E:\project\workspace\thinkphp5\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-11-03T14:20:15+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.077610s][吞吐率：12.88req/s] [内存消耗：2,576.03kb] [文件加载：60]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '413',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryDnLaaHNIJm5jkisH',
+  'cache-control' => 'no-cache',
+  'postman-token' => '0033f0c9-6283-63f4-af91-cb4e3428165f',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'password' => 'e6c5ce538f971e3df563003fac111111',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000930s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.008678s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000460s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com AND `password` = e6c5ce538f971e3df563003fac6e45e0' at line 1[E:\project\workspace\thinkphp5\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-11-03T14:21:38+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.062049s][吞吐率：16.12req/s] [内存消耗：2,576.29kb] [文件加载：60]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '413',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary0lvZKabcycZnfaqQ',
+  'cache-control' => 'no-cache',
+  'postman-token' => '9bf77eeb-71c2-8c0f-b2cc-aa0f394f6dd2',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'password' => 'e6c5ce538f971e3df563003fac111111',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000700s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.007779s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000406s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com AND `password` = e6c5ce538f971e3df563003fac6e45e0' at line 1[E:\project\workspace\thinkphp5\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-11-03T14:21:45+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.164125s][吞吐率：6.09req/s] [内存消耗：2,410.65kb] [文件加载：50]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '413',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywapQ2CEWj0wJr4oi',
+  'cache-control' => 'no-cache',
+  'postman-token' => '83bf3ea7-4313-dbef-7486-70991196467e',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'password' => 'e6c5ce538f971e3df563003fac111111',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000682s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.115816s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.001646s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.001680s ]
+---------------------------------------------------------------
+[ 2017-11-03T14:23:16+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.106269s][吞吐率：9.41req/s] [内存消耗：2,410.77kb] [文件加载：50]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '413',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryuajIVaiF79v9Xau9',
+  'cache-control' => 'no-cache',
+  'postman-token' => '561edfb8-9fbc-7262-3fc8-b9fa3572f2c0',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'password' => 'e6c5ce538f971e3df563003fac111111',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000804s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.060806s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000818s ]
+---------------------------------------------------------------
+[ 2017-11-03T14:24:46+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.115195s][吞吐率：8.68req/s] [内存消耗：2,410.77kb] [文件加载：50]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '413',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarynNHHAQIITaAMXRBF',
+  'cache-control' => 'no-cache',
+  'postman-token' => '80ba34a7-c42b-9675-be2f-19d45fff456b',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'password' => 'e6c5ce538f971e3df563003fac111111',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000787s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.073669s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[ 2017-11-03T14:25:10+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.096706s][吞吐率：10.34req/s] [内存消耗：2,414.98kb] [文件加载：50]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '413',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryr34l3xok7QjXpSJz',
+  'cache-control' => 'no-cache',
+  'postman-token' => '48f8f624-fb59-ef3b-14a8-27410509dc16',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'password' => 'e6c5ce538f971e3df563003fac111111',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000774s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.052739s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE `email`='239830645@qq.com' AND `password` = 'e6c5ce538f971e3df563003fac6e45e0' [ RunTime:0.000303s ]
+---------------------------------------------------------------
+[ 2017-11-03T14:25:26+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.105310s][吞吐率：9.50req/s] [内存消耗：2,551.66kb] [文件加载：55]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '413',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryiSuyQ5TTQ0LlAaGe',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bef4b3f1-fe01-72e7-8769-8dc458880f70',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'password' => 'e6c5ce538f971e3df563003fac111111',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000615s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.007428s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE `email`='239830645@qq.com' AND `password` = 'e6c5ce538f971e3df563003fac6e45e0' [ RunTime:0.000314s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `password`='e6c5ce538f971e3df563003fac111111'  WHERE  `email` = '239830645@qq.com' [ RunTime:0.000373s ]
+---------------------------------------------------------------
+[ 2017-11-03T14:26:41+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.160419s][吞吐率：6.23req/s] [内存消耗：2,413.39kb] [文件加载：50]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '413',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryvjp6M9bxnqxTsu1h',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c307add0-c122-6ddc-70d3-2e8bd77b09d1',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'password' => 'e6c5ce538f971e3df563003fac111111',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000679s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.109157s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE `email`='239830645@qq.com' AND `password` = 'e6c5ce538f971e3df563003fac6e45e0' [ RunTime:0.000729s ]
+---------------------------------------------------------------
+[ 2017-11-03T14:27:06+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.102342s][吞吐率：9.77req/s] [内存消耗：2,413.59kb] [文件加载：50]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '413',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjiEVFqChOqCEdoKW',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd9f8474d-cdb2-87bc-1009-63e983d5ac7a',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'old_password' => 'e6c5ce538f971e3df563003fac111111',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000721s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.062952s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE `email`='239830645@qq.com' AND `password` = 'e6c5ce538f971e3df563003fac111111' [ RunTime:0.000279s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `password`='e6c5ce538f971e3df563003fac6e45e0'  WHERE  `email` = '239830645@qq.com' [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[ 2017-11-03T14:34:14+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.101118s][吞吐率：9.89req/s] [内存消耗：2,413.89kb] [文件加载：50]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '413',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarypYDaB24TEEAG4LMf',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1a8f8076-cd52-c414-fa07-6b8b207691b4',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e45e0',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000787s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.056115s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE `email`='239830645@qq.com' AND `password` = 'e6c5ce538f971e3df563003fac6e45e0' [ RunTime:0.000284s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `password`='e6c5ce538f971e3df563003fac6e45e0'  WHERE  `email` = '239830645@qq.com' [ RunTime:0.000245s ]
+---------------------------------------------------------------
+[ 2017-11-03T14:34:16+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.145529s][吞吐率：6.87req/s] [内存消耗：2,413.89kb] [文件加载：50]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '413',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryxfrCK3FvaAZnrgJG',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a2d1b45d-645d-0cc8-5d0d-cedb58b5a6f6',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e45e0',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000611s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.073881s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.017608s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.001328s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE `email`='239830645@qq.com' AND `password` = 'e6c5ce538f971e3df563003fac6e45e0' [ RunTime:0.001382s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `password`='e6c5ce538f971e3df563003fac6e45e0'  WHERE  `email` = '239830645@qq.com' [ RunTime:0.000964s ]
+---------------------------------------------------------------
+[ 2017-11-03T14:35:01+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.051230s][吞吐率：19.52req/s] [内存消耗：2,413.70kb] [文件加载：50]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '408',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZ6MheKKtCzf3ome1',
+  'cache-control' => 'no-cache',
+  'postman-token' => '05529853-cc4a-140f-348e-5e4dd62bfeec',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '13739499187',
+  'password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e45e0',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000689s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.008651s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '13739499187' LIMIT 1 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '13739499187' LIMIT 1 [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE `phone`='13739499187' AND `password` = 'e6c5ce538f971e3df563003fac6e45e0' [ RunTime:0.000379s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `password`='e6c5ce538f971e3df563003fac6e45e0'  WHERE  `phone` = '13739499187' [ RunTime:0.000380s ]
+---------------------------------------------------------------
+[ 2017-11-03T14:35:24+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.086226s][吞吐率：11.60req/s] [内存消耗：2,413.70kb] [文件加载：50]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '408',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryIbcByHjkRtOSHbnT',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fb8bd408-a898-abd3-60ab-f9532e1eeaa0',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '13739499187',
+  'password' => 'e6c5ce538f971e3df563003fac6e1111',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e45e0',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000665s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.046866s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '13739499187' LIMIT 1 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '13739499187' LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE `phone`='13739499187' AND `password` = 'e6c5ce538f971e3df563003fac6e45e0' [ RunTime:0.000248s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `password`='e6c5ce538f971e3df563003fac6e1111'  WHERE  `phone` = '13739499187' [ RunTime:0.000227s ]
+---------------------------------------------------------------
+[ 2017-11-03T14:35:43+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.106531s][吞吐率：9.39req/s] [内存消耗：2,413.49kb] [文件加载：50]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '408',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryDUFVKK2XZwYqBTWg',
+  'cache-control' => 'no-cache',
+  'postman-token' => '31cabf7c-392c-52ce-1484-67d2dff6ca52',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '13739499187',
+  'password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e45e0',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000624s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.062993s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '13739499187' LIMIT 1 [ RunTime:0.001206s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '13739499187' LIMIT 1 [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE `phone`='13739499187' AND `password` = 'e6c5ce538f971e3df563003fac6e45e0' [ RunTime:0.000805s ]
+---------------------------------------------------------------
+[ 2017-11-03T14:35:50+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.122021s][吞吐率：8.20req/s] [内存消耗：2,413.70kb] [文件加载：50]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '408',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryDUPoeGXLVi7BpYt5',
+  'cache-control' => 'no-cache',
+  'postman-token' => '2e3f9c2c-8423-063f-d1d9-6c3c7dd8b79d',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '13739499187',
+  'password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e1111',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000648s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.062940s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '13739499187' LIMIT 1 [ RunTime:0.002425s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '13739499187' LIMIT 1 [ RunTime:0.002053s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE `phone`='13739499187' AND `password` = 'e6c5ce538f971e3df563003fac6e1111' [ RunTime:0.001790s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `password`='e6c5ce538f971e3df563003fac6e45e0'  WHERE  `phone` = '13739499187' [ RunTime:0.001825s ]
+---------------------------------------------------------------
+[ 2017-11-03T15:08:56+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.102711s][吞吐率：9.74req/s] [内存消耗：2,575.79kb] [文件加载：60]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '408',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryDVvD2GQkZH4wxCFj',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7483d161-489c-55e9-6d79-6b44d9324551',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '13739499187',
+  'password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e1111',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001516s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.048637s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '13739499187' LIMIT 1 [ RunTime:0.000373s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '13739499187' LIMIT 1 [ RunTime:0.000253s ]
+[ error ] [10501]SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name ''[E:\project\workspace\thinkphp5\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-11-03T15:09:12+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.089555s][吞吐率：11.17req/s] [内存消耗：2,415.20kb] [文件加载：50]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '408',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryQQxJcp5us1iSpBkZ',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ab9a3c47-fbd8-3bc3-71fb-d2eeb361a2e0',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '13739499187',
+  'password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e1111',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000678s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.048746s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '13739499187' LIMIT 1 [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '13739499187' LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  (  `phone`='13739499187' ) LIMIT 1 [ RunTime:0.000292s ]
+---------------------------------------------------------------
+[ 2017-11-03T15:10:35+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.123765s][吞吐率：8.08req/s] [内存消耗：2,415.32kb] [文件加载：50]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '408',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryN2RC4D2RoECAnQOB',
+  'cache-control' => 'no-cache',
+  'postman-token' => '17aa003d-820f-99f0-5cc5-eda0b5894476',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '13739499187',
+  'password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e1111',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000726s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.074295s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '13739499187' LIMIT 1 [ RunTime:0.001340s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '13739499187' LIMIT 1 [ RunTime:0.000989s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  (  `phone`='13739499187' ) LIMIT 1 [ RunTime:0.000946s ]
+---------------------------------------------------------------
+[ 2017-11-03T15:10:56+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.134938s][吞吐率：7.41req/s] [内存消耗：2,413.20kb] [文件加载：50]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '408',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary7Yx9n5EFv5VQolDg',
+  'cache-control' => 'no-cache',
+  'postman-token' => '844d544c-a9b8-cf28-1f86-cda1e456ac0c',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '13739499187',
+  'password' => 'e6c5ce538f971e3df563003fac6e45e0',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e45e0',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000642s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.080301s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '13739499187' LIMIT 1 [ RunTime:0.001729s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '13739499187' LIMIT 1 [ RunTime:0.001540s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  (  `phone`='13739499187' ) LIMIT 1 [ RunTime:0.001415s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `password`='e6c5ce538f971e3df563003fac6e45e0'  WHERE  `phone` = '13739499187' [ RunTime:0.001721s ]
+---------------------------------------------------------------
+[ 2017-11-03T15:11:08+08:00 ] 127.0.0.1 127.0.0.1 POST /user/change_pwd
+[ info ] api.myblog.com/user/change_pwd [运行时间：0.102233s][吞吐率：9.78req/s] [内存消耗：2,413.20kb] [文件加载：50]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'change_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '408',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryr4kenr7J1Va72Uqw',
+  'cache-control' => 'no-cache',
+  'postman-token' => '455ca2b6-5a7c-bc76-b57d-5dea01d21497',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '13739499187',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'old_password' => 'e6c5ce538f971e3df563003fac6e45e0',
+)
+[ info ] [ RUN ] app\api\controller\User->change_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000692s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.050293s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '13739499187' LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '13739499187' LIMIT 1 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  (  `phone`='13739499187' ) LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `password`='e6c5ce538f971e3df563003fac6e4500'  WHERE  `phone` = '13739499187' [ RunTime:0.000274s ]
+---------------------------------------------------------------
+[ 2017-11-03T15:56:02+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.090675s][吞吐率：11.03req/s] [内存消耗：2,416.48kb] [文件加载：50]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '374',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAjBAx85tWUw474nj',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ec0cb7f6-2090-9093-f335-35a0f638c227',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '13739499187',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '970446',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001726s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.046673s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '13739499187' LIMIT 1 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '13739499187' LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `password`='e6c5ce538f971e3df563003fac6e4500'  WHERE  `phone` = '13739499187' [ RunTime:0.000286s ]
+---------------------------------------------------------------
+[ 2017-11-03T15:57:52+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.203176s][吞吐率：4.92req/s] [内存消耗：1,728.32kb] [文件加载：44]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '374',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryH1gTJsUIHngnPzkM',
+  'cache-control' => 'no-cache',
+  'postman-token' => '0592acbc-feb2-d93e-dd14-5a36848bdf1d',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'username' => '13739499187',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '970446',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T15:58:18+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.030965s][吞吐率：32.29req/s] [内存消耗：1,728.38kb] [文件加载：44]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '374',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryaMNBvmbAUgGWxFze',
+  'cache-control' => 'no-cache',
+  'postman-token' => '43211012-d683-6512-2802-ba643cfa988c',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '13739499187',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '970446',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T15:58:19+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.027628s][吞吐率：36.20req/s] [内存消耗：1,728.38kb] [文件加载：44]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '374',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryLAGHzNv8OkafAP9o',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4b8ac2bb-6ffa-41f4-fd9c-5d578c47714f',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '13739499187',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '970446',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T15:58:20+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.036498s][吞吐率：27.40req/s] [内存消耗：1,728.38kb] [文件加载：44]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '374',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryl351Bka0TeggOggq',
+  'cache-control' => 'no-cache',
+  'postman-token' => '8d21b711-a495-9b4c-bebd-f96623c5fa78',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '13739499187',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '970446',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T15:58:21+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.032316s][吞吐率：30.94req/s] [内存消耗：1,728.38kb] [文件加载：44]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '374',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqcJ6Nxo6x20Svf5L',
+  'cache-control' => 'no-cache',
+  'postman-token' => '086ebe96-06c0-6941-e781-a921d72e102c',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '13739499187',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '970446',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T15:58:38+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.096526s][吞吐率：10.36req/s] [内存消耗：1,728.45kb] [文件加载：44]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '374',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryDRVeEsUQpQ3sQivq',
+  'cache-control' => 'no-cache',
+  'postman-token' => '020e3c97-aa6d-84a3-8b26-c21a233c108c',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '13739499187',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '970446',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T15:59:08+08:00 ] 127.0.0.1 127.0.0.1 GET /code/11/1/239830645@qq.com/0
+[ info ] api.myblog.com/code/11/1/239830645@qq.com/0 [运行时间：0.132619s][吞吐率：7.54req/s] [内存消耗：2,412.49kb] [文件加载：50]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'postman-token' => '2c41d7dd-e702-9628-7539-9d12d9632d75',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'time' => '11',
+  'token' => '1',
+  'username' => '239830645@qq.com',
+  'is_exist' => '0',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ E:\project\workspace\thinkphp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010177s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.013860s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000520s ]
+---------------------------------------------------------------
+[ 2017-11-03T16:01:18+08:00 ] 127.0.0.1 127.0.0.1 GET /code/11/1/239830645@qq.com/1
+[ info ] api.myblog.com/code/11/1/239830645@qq.com/1 [运行时间：121.177455s][吞吐率：0.01req/s] [内存消耗：3,230.41kb] [文件加载：61]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'postman-token' => '106fe89a-b3c4-011f-85d5-2d27471d28e9',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'time' => '11',
+  'token' => '1',
+  'username' => '239830645@qq.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ E:\project\workspace\thinkphp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003604s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.036213s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000382s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000320s ]
+[ error ] [1]Maximum execution time of 30 seconds exceeded[E:\project\workspace\thinkphp5\extend\PHPMailer\SMTP.php:1116]
+---------------------------------------------------------------
+[ 2017-11-03T16:01:18+08:00 ] 127.0.0.1 127.0.0.1 GET /code/11/1/239830645@qq.com/1
+[ info ] api.myblog.com/code/11/1/239830645@qq.com/1 [运行时间：57.675898s][吞吐率：0.02req/s] [内存消耗：2,587.14kb] [文件加载：59]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'postman-token' => 'c2662d9f-0153-61ac-53c5-cee169175e77',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'time' => '11',
+  'token' => '1',
+  'username' => '239830645@qq.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ E:\project\workspace\thinkphp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001355s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.012609s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000379s ]
+[ error ] [1]Maximum execution time of 30 seconds exceeded[E:\project\workspace\thinkphp5\thinkphp\library\think\Session.php:106]
+---------------------------------------------------------------
+[ 2017-11-03T16:01:18+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：50.445237s][吞吐率：0.02req/s] [内存消耗：1,901.73kb] [文件加载：54]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '374',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryl7av7tptEc2rXvCs',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fbce8477-278a-c735-07e3-f30a5dfd3dfd',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '13739499187',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '970446',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]Maximum execution time of 30 seconds exceeded[E:\project\workspace\thinkphp5\thinkphp\library\think\Session.php:106]
+---------------------------------------------------------------
+[ 2017-11-03T16:01:29+08:00 ] 127.0.0.1 127.0.0.1 GET /code/11/1/239830645@qq.com/1
+[ info ] api.myblog.com/code/11/1/239830645@qq.com/1 [运行时间：2.339726s][吞吐率：0.43req/s] [内存消耗：3,103.63kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'postman-token' => 'dccaa678-6662-a0b6-0d56-edbe2b3ed20b',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'time' => '11',
+  'token' => '1',
+  'username' => '239830645@qq.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ E:\project\workspace\thinkphp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000794s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.030216s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000381s ]
+---------------------------------------------------------------
+[ 2017-11-03T16:01:42+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.035421s][吞吐率：28.23req/s] [内存消耗：1,729.00kb] [文件加载：44]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '374',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqFu0RqtT0rHTpbBT',
+  'cache-control' => 'no-cache',
+  'postman-token' => '10296fc8-30c5-59eb-7207-df8c1289aace',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '13739499187',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '589358',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:01:51+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.035063s][吞吐率：28.52req/s] [内存消耗：1,729.00kb] [文件加载：44]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '374',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarygm1WRhRhNYAE7v20',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ddb30eab-9c48-a4d6-284d-2919835eca66',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '13739499187',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '589358',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:02:08+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.028999s][吞吐率：34.48req/s] [内存消耗：1,729.10kb] [文件加载：44]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryNvyxcUuppAp0YH3y',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ddd8bb81-bbec-0267-f9c0-3dd9c864b79e',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '589358',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:02:10+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.029835s][吞吐率：33.52req/s] [内存消耗：1,729.10kb] [文件加载：44]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryJqNINBWLZZwZiTN1',
+  'cache-control' => 'no-cache',
+  'postman-token' => '56a94ebb-a640-32dd-e9ed-13c46077f6d3',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '589358',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:02:11+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.027986s][吞吐率：35.73req/s] [内存消耗：1,729.10kb] [文件加载：44]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqzvBJPhQCBZ6u7gA',
+  'cache-control' => 'no-cache',
+  'postman-token' => '5dee8859-d400-9d3e-4161-61a4600a8404',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '589358',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:02:37+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.037668s][吞吐率：26.55req/s] [内存消耗：1,760.10kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryse5mQXdW2B1mnqAI',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ec66d8a0-c508-70e8-f87b-bca557c09e97',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '589358',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:04:56+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.035368s][吞吐率：28.27req/s] [内存消耗：1,760.41kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarygrCCxQTyVdqzAIAC',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd2d6d6e5-c5b6-86b0-abf3-5a3a4204f5c2',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '589358',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:05:24+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.032915s][吞吐率：30.38req/s] [内存消耗：1,760.41kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryHWpGeGhEMCZwBsIA',
+  'cache-control' => 'no-cache',
+  'postman-token' => '02daee18-f38b-baef-a431-81f2c892356b',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '589358',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:05:24+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.028988s][吞吐率：34.50req/s] [内存消耗：1,760.41kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryu9Ax4Ln7rjGkuD1f',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e323e44e-df21-e9ee-d809-c5a9901e3128',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '589358',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:05:25+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.038796s][吞吐率：25.78req/s] [内存消耗：1,760.41kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryB3IAENBaLAeCdW5e',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7b855aec-44f6-0509-7a50-fa042b5e8026',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '589358',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:05:26+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.031558s][吞吐率：31.69req/s] [内存消耗：1,760.41kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywzV8syf3kqBGAKkc',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f639abf7-4f52-5fe2-dcc8-3bc8cfa2fe42',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '589358',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:05:26+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.031412s][吞吐率：31.84req/s] [内存消耗：1,760.41kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryrWSQ0YOBHtSxOMZB',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1e5c6b30-c42f-1bf8-1bfb-47f0acff96bd',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '589358',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:16:17+08:00 ] 127.0.0.1 127.0.0.1 GET /code/11/1/239830645@qq.com/1
+[ info ] api.myblog.com/code/11/1/239830645@qq.com/1 [运行时间：0.079560s][吞吐率：12.57req/s] [内存消耗：2,462.50kb] [文件加载：51]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'postman-token' => '52eca433-1d7b-c183-b953-d06afb1d2893',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'time' => '11',
+  'token' => '1',
+  'username' => '239830645@qq.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ E:\project\workspace\thinkphp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001006s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.025349s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000382s ]
+---------------------------------------------------------------
+[ 2017-11-03T16:17:30+08:00 ] 127.0.0.1 127.0.0.1 GET /code/11/1/239830645@qq.com/1
+[ info ] api.myblog.com/code/11/1/239830645@qq.com/1 [运行时间：0.998152s][吞吐率：1.00req/s] [内存消耗：3,103.95kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'postman-token' => '808bf8af-36dd-9192-f652-7225adc89fc5',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'time' => '11',
+  'token' => '1',
+  'username' => '239830645@qq.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ E:\project\workspace\thinkphp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001135s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.017087s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000439s ]
+---------------------------------------------------------------
+[ 2017-11-03T16:17:46+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.035915s][吞吐率：27.84req/s] [内存消耗：1,760.10kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywQLm38xSFmUvLgL2',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4b6412b9-e485-03d6-1a5a-49e4a715dc96',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '411105',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:17:48+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.033374s][吞吐率：29.96req/s] [内存消耗：1,760.10kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarySB05mOWXz4lOjRFU',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'dbb8d7f3-6aa5-e0f9-df74-2fc4bd65249a',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '411105',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:17:49+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.033088s][吞吐率：30.22req/s] [内存消耗：1,760.10kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryOZZ7SIpHCHJGfNwB',
+  'cache-control' => 'no-cache',
+  'postman-token' => '7094da2a-028f-e9bb-5944-3f5224a2f971',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '411105',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:17:49+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.035412s][吞吐率：28.24req/s] [内存消耗：1,760.10kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryk9ZUhjMlEDsFIBza',
+  'cache-control' => 'no-cache',
+  'postman-token' => '3f9b3e5b-f4d3-619e-3ba6-3b80d54ea22a',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '411105',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:17:50+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.031192s][吞吐率：32.06req/s] [内存消耗：1,760.10kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryKT8jiBClfZXHMjD7',
+  'cache-control' => 'no-cache',
+  'postman-token' => '3f8b45f0-3341-de77-2350-a7112143fd7f',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '411105',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:17:53+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.036542s][吞吐率：27.37req/s] [内存消耗：1,760.10kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryxySyQeq58tWIr5jl',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e1bdee40-f290-fd65-fa71-0f64c6d1c649',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '411105',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:18:57+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.033776s][吞吐率：29.61req/s] [内存消耗：1,760.41kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryFxfkGBprCSYXbIxR',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6158cf3c-f91a-5644-7317-56d042759c30',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '411105',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:18:58+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.029188s][吞吐率：34.26req/s] [内存消耗：1,760.41kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary60beObfQbzYDYAcC',
+  'cache-control' => 'no-cache',
+  'postman-token' => '48283872-1f95-02b7-62c9-e5a252b3b441',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '411105',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:18:59+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.032595s][吞吐率：30.68req/s] [内存消耗：1,760.41kb] [文件加载：45]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryFFA0UKMrM8PnykHu',
+  'cache-control' => 'no-cache',
+  'postman-token' => '873ca0a2-3112-3e4a-c19f-cbb1a6382c0e',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '411105',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:20:37+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.036354s][吞吐率：27.51req/s] [内存消耗：1,708.71kb] [文件加载：44]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryn57B39cBUyRqgysV',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1ce53dd0-9f13-b226-b67b-dd74f0ad4e20',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '158555827@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '411105',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:21:13+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.097754s][吞吐率：10.23req/s] [内存消耗：2,468.41kb] [文件加载：51]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary19H4coTd6r0EsgoF',
+  'cache-control' => 'no-cache',
+  'postman-token' => '24aa7ef5-a1ce-7d59-39fb-e7219b7caa61',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '411105',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000825s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.047674s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `password`='e6c5ce538f971e3df563003fac6e4500'  WHERE  `email` = '239830645@qq.com' [ RunTime:0.000230s ]
+---------------------------------------------------------------
+[ 2017-11-03T16:21:29+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.050080s][吞吐率：19.97req/s] [内存消耗：2,468.41kb] [文件加载：51]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary7H4QyfKEWQBy0mm5',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e11a67b9-8a7a-c084-372f-ce2f5e319b6c',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '411105',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000785s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.007537s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `password`='e6c5ce538f971e3df563003fac6e4500'  WHERE  `email` = '239830645@qq.com' [ RunTime:0.000279s ]
+---------------------------------------------------------------
+[ 2017-11-03T16:21:30+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.057627s][吞吐率：17.35req/s] [内存消耗：2,468.41kb] [文件加载：51]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryQrwb5EHU2upzf7p1',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd6fe2fdb-5ad4-4b56-c3fb-67f777c8b908',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '411105',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000655s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.006966s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `password`='e6c5ce538f971e3df563003fac6e4500'  WHERE  `email` = '239830645@qq.com' [ RunTime:0.000530s ]
+---------------------------------------------------------------
+[ 2017-11-03T16:21:31+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.246310s][吞吐率：4.06req/s] [内存消耗：2,468.41kb] [文件加载：51]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarynAA3Zwa4mfmnsmSW',
+  'cache-control' => 'no-cache',
+  'postman-token' => '71fdf37a-11ff-cd3f-59fe-dc128f8c0e26',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '411105',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000766s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.190509s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.001835s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.001564s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `password`='e6c5ce538f971e3df563003fac6e4500'  WHERE  `email` = '239830645@qq.com' [ RunTime:0.001247s ]
+---------------------------------------------------------------
+[ 2017-11-03T16:21:32+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.130925s][吞吐率：7.64req/s] [内存消耗：2,468.41kb] [文件加载：51]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryToCpw3JW3MLsAG9m',
+  'cache-control' => 'no-cache',
+  'postman-token' => '05c39697-a82f-cb11-d078-6f567da2e819',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '411105',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000706s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.080867s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.001143s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.001071s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `password`='e6c5ce538f971e3df563003fac6e4500'  WHERE  `email` = '239830645@qq.com' [ RunTime:0.000822s ]
+---------------------------------------------------------------
+[ 2017-11-03T16:21:32+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.104329s][吞吐率：9.59req/s] [内存消耗：2,468.41kb] [文件加载：51]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjBn8dIyCzZPMUkPH',
+  'cache-control' => 'no-cache',
+  'postman-token' => '8f0d2420-92c3-c97e-6daf-02508feb5d6a',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '411105',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000702s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.062139s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000428s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `password`='e6c5ce538f971e3df563003fac6e4500'  WHERE  `email` = '239830645@qq.com' [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2017-11-03T16:21:33+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.054103s][吞吐率：18.48req/s] [内存消耗：2,468.41kb] [文件加载：51]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBAZADaTntekQcC0D',
+  'cache-control' => 'no-cache',
+  'postman-token' => '9638b578-4edd-eca4-9542-0001715d0e53',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '411105',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001115s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.008104s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000548s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000582s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `password`='e6c5ce538f971e3df563003fac6e4500'  WHERE  `email` = '239830645@qq.com' [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2017-11-03T16:22:32+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.133867s][吞吐率：7.47req/s] [内存消耗：2,468.99kb] [文件加载：51]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryg3vYz0ewK9ftsxeX',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c87c5280-ee5a-84a1-be7a-f0d60f1aa8fe',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '411105',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000806s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.080699s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.002302s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.001715s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `password`='e6c5ce538f971e3df563003fac6e4500'  WHERE  `email` = '239830645@qq.com' [ RunTime:0.001314s ]
+---------------------------------------------------------------
+[ 2017-11-03T16:22:34+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.033045s][吞吐率：30.26req/s] [内存消耗：1,729.67kb] [文件加载：44]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryFclgsZ0KRgTewnUs',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c238a82b-2bd2-0500-2695-764767eff74e',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '411105',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:22:43+08:00 ] 127.0.0.1 127.0.0.1 GET /code/11/1/239830645@qq.com/1
+[ info ] api.myblog.com/code/11/1/239830645@qq.com/1 [运行时间：1.345697s][吞吐率：0.74req/s] [内存消耗：3,103.69kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'postman-token' => '71c3487e-8bd4-a4b0-df2d-c041c71286d1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'time' => '11',
+  'token' => '1',
+  'username' => '239830645@qq.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ E:\project\workspace\thinkphp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000996s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.162545s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000462s ]
+---------------------------------------------------------------
+[ 2017-11-03T16:22:58+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.036849s][吞吐率：27.14req/s] [内存消耗：1,729.66kb] [文件加载：44]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '378',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryTgNfsjuPZqHOp9mH',
+  'cache-control' => 'no-cache',
+  'postman-token' => '526d740e-d8a2-9dfd-cada-94e4da52177f',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '23983645@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '501110',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:23:05+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.113595s][吞吐率：8.80req/s] [内存消耗：2,468.99kb] [文件加载：51]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryibKF0Mu0z9tRAU9m',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4d09d3d7-7e08-e55f-8d92-e4f3cfe5d96b',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '501110',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000666s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.063835s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000652s ]
+[ sql ] [ SQL ] UPDATE `vip`  SET `password`='e6c5ce538f971e3df563003fac6e4500'  WHERE  `email` = '239830645@qq.com' [ RunTime:0.000708s ]
+---------------------------------------------------------------
+[ 2017-11-03T16:23:16+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.037725s][吞吐率：26.51req/s] [内存消耗：1,729.67kb] [文件加载：44]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZhJGLi4L3AM0y8CR',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e3dbd528-b89d-425a-f8ff-87dbe06e9704',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '501110',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:23:45+08:00 ] 127.0.0.1 127.0.0.1 POST /user/find_pwd
+[ info ] api.myblog.com/user/find_pwd [运行时间：0.035247s][吞吐率：28.37req/s] [内存消耗：1,730.85kb] [文件加载：44]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'User',
+    2 => 'find_pwd',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '379',
+  'origin' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+  'time' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'is_exist' => '0',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3A5KizM56UnRAGfJ',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f2e982fa-2387-df9f-a309-5174e583ea39',
+  'token' => '1',
+  'phone' => '13739499187',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'username' => '239830645@qq.com',
+  'password' => 'e6c5ce538f971e3df563003fac6e4500',
+  'code' => '501110',
+)
+[ info ] [ RUN ] app\api\controller\User->find_pwd[ E:\project\workspace\thinkphp5\application\api\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-11-03T16:25:50+08:00 ] 127.0.0.1 127.0.0.1 GET /code/11/1/239830645@qq.com/1
+[ info ] api.myblog.com/code/11/1/239830645@qq.com/1 [运行时间：121.936275s][吞吐率：0.01req/s] [内存消耗：3,230.44kb] [文件加载：61]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'postman-token' => 'bd12c081-43ff-604d-af87-f526856e1e8c',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'time' => '11',
+  'token' => '1',
+  'username' => '239830645@qq.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ E:\project\workspace\thinkphp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001740s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.013357s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000461s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000347s ]
+[ error ] [1]Maximum execution time of 30 seconds exceeded[E:\project\workspace\thinkphp5\extend\PHPMailer\SMTP.php:1116]
+---------------------------------------------------------------
+[ 2017-11-03T16:25:50+08:00 ] 127.0.0.1 127.0.0.1 GET /code/11/1/239830645@qq.com/1
+[ info ] api.myblog.com/code/11/1/239830645@qq.com/1 [运行时间：46.768516s][吞吐率：0.02req/s] [内存消耗：2,587.23kb] [文件加载：59]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'code',
+    2 => 'get_code',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'api.myblog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'no-cache',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'postman-token' => '0b98bcf1-c07c-cdf0-ef02-b5d2cfee0f02',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=0q8uinilb6n4vab1cjid98fa27',
+)
+[ info ] [ PARAM ] array (
+  'time' => '11',
+  'token' => '1',
+  'username' => '239830645@qq.com',
+  'is_exist' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Code->get_code[ E:\project\workspace\thinkphp5\application\api\controller\Code.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000686s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `vip` [ RunTime:0.012941s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `phone` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT * FROM `vip` WHERE  `email` = '239830645@qq.com' LIMIT 1 [ RunTime:0.000512s ]
+[ error ] [1]Maximum execution time of 30 seconds exceeded[E:\project\workspace\thinkphp5\thinkphp\library\think\Session.php:106]

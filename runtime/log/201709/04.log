@@ -1,0 +1,123 @@
+---------------------------------------------------------------
+[ 2017-09-04T17:25:33+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [0]模板文件不存在:E:\project\workspace\thinkphp5\public/../application/admin\view\index\index.html
+---------------------------------------------------------------
+[ 2017-09-04T17:25:34+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [0]模板文件不存在:E:\project\workspace\thinkphp5\public/../application/admin\view\index\index.html
+---------------------------------------------------------------
+[ 2017-09-04T17:25:35+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [0]模板文件不存在:E:\project\workspace\thinkphp5\public/../application/admin\view\index\index.html
+---------------------------------------------------------------
+[ 2017-09-04T18:09:15+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:09:16+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:09:17+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:09:28+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:10:16+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:10:17+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:10:17+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:12:43+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:12:45+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:12:45+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:12:45+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:12:45+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:12:46+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:12:59+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:13:00+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:13:00+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:13:19+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:13:20+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:13:20+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:13:20+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:14:01+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:14:02+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:14:02+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:14:03+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:14:04+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:15:29+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:15:29+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:15:29+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:15:30+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:20:09+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:20:10+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:21:26+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:22:30+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:23:30+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:23:31+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:23:31+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:23:31+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found
+---------------------------------------------------------------
+[ 2017-09-04T18:23:41+08:00 ] 127.0.0.1 127.0.0.1 GET /workspace/thinkphp5/public/admin/index
+[ error ] [1]Class 'think\controller' not found

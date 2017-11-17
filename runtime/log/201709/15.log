@@ -1,0 +1,3925 @@
+---------------------------------------------------------------
+[ 2017-09-15T10:23:40+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/User/login
+[ info ] 127.0.0.1/thinkphp5/public/admin/User/login [运行时间：0.824530s][吞吐率：1.21req/s] [内存消耗：1,871.63kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'User',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->login[ E:\project\workspace\thinkphp5\application\admin\controller\User.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\User\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:23:41+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/captcha.html
+[ info ] 127.0.0.1/thinkphp5/public/captcha.html [运行时间：0.340489s][吞吐率：2.94req/s] [内存消耗：1,494.71kb] [文件加载：41]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/User/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ E:\project\workspace\thinkphp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:23:53+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/captcha.html
+[ info ] 127.0.0.1/thinkphp5/public/captcha.html [运行时间：0.045187s][吞吐率：22.13req/s] [内存消耗：1,494.73kb] [文件加载：41]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/User/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ E:\project\workspace\thinkphp5\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:24:03+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp5/public/admin/user/checkLogin.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/user/checkLogin.html [运行时间：0.483316s][吞吐率：2.07req/s] [内存消耗：2,932.65kb] [文件加载：61]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'checkLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '39',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/User/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'admin',
+  'password' => '123456',
+  'verify' => 'yikjt',
+)
+[ info ] [ RUN ] app\admin\controller\User->checkLogin[ E:\project\workspace\thinkphp5\application\admin\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.167966s ] mysql:dbname=thinkphp5;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.078227s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE (  `name` = 'admin'  AND `password` = 'e10adc3949ba59abbe56e057f20f883e' ) AND `user`.`delet_time` IS NULL LIMIT 1 [ RunTime:0.002489s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_time`=1505442243,`login_count`=18  WHERE  `id` = 1 [ RunTime:0.001064s ]
+---------------------------------------------------------------
+[ 2017-09-15T10:24:05+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/index/index.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/index/index.html [运行时间：0.141642s][吞吐率：7.06req/s] [内存消耗：1,849.63kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/User/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\project\workspace\thinkphp5\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:24:09+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/index/article-list.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/index/article-list.html [运行时间：0.070009s][吞吐率：14.28req/s] [内存消耗：1,797.60kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'article-list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:24:11+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/index/index.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/index/index.html [运行时间：0.035500s][吞吐率：28.17req/s] [内存消耗：1,849.73kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/User/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\project\workspace\thinkphp5\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:24:27+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/index/article-list.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/index/article-list.html [运行时间：0.038108s][吞吐率：26.24req/s] [内存消耗：1,797.60kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'article-list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:26:38+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/index/index.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/index/index.html [运行时间：0.181027s][吞吐率：5.52req/s] [内存消耗：2,002.22kb] [文件加载：54]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/User/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\project\workspace\thinkphp5\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:26:39+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/index/index.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/index/index.html [运行时间：0.037875s][吞吐率：26.40req/s] [内存消耗：1,850.01kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/User/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\project\workspace\thinkphp5\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:26:41+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.079578s][吞吐率：12.57req/s] [内存消耗：1,796.38kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:E:\project\workspace\thinkphp5\public/../application/admin\view\article\main.html[E:\project\workspace\thinkphp5\thinkphp\library\think\view\driver\Think.php:80]
+---------------------------------------------------------------
+[ 2017-09-15T10:28:17+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.056849s][吞吐率：17.59req/s] [内存消耗：1,999.59kb] [文件加载：56]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '(', expecting ',' or ';'[E:\project\workspace\thinkphp5\runtime\temp\e6b1a34d814653fe7c42f6131238794f.php:282]
+---------------------------------------------------------------
+[ 2017-09-15T10:28:20+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.065122s][吞吐率：15.36req/s] [内存消耗：1,826.30kb] [文件加载：54]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '(', expecting ',' or ';'[E:\project\workspace\thinkphp5\runtime\temp\e6b1a34d814653fe7c42f6131238794f.php:282]
+---------------------------------------------------------------
+[ 2017-09-15T10:28:20+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/index/index.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/index/index.html [运行时间：0.043135s][吞吐率：23.18req/s] [内存消耗：1,849.75kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/User/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\project\workspace\thinkphp5\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:28:22+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/index/index.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/index/index.html [运行时间：0.034926s][吞吐率：28.63req/s] [内存消耗：1,850.01kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/User/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\project\workspace\thinkphp5\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:28:23+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.038312s][吞吐率：26.10req/s] [内存消耗：1,826.03kb] [文件加载：54]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '(', expecting ',' or ';'[E:\project\workspace\thinkphp5\runtime\temp\e6b1a34d814653fe7c42f6131238794f.php:282]
+---------------------------------------------------------------
+[ 2017-09-15T10:32:59+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.045352s][吞吐率：22.05req/s] [内存消耗：2,015.94kb] [文件加载：54]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:32:59+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js [运行时间：0.056433s][吞吐率：17.72req/s] [内存消耗：1,796.92kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:32:59+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js [运行时间：0.056154s][吞吐率：17.81req/s] [内存消耗：1,796.98kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'datatables' => '1.10.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:32:59+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/jquery/1.9.1/jquery.min.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/jquery/1.9.1/jquery.min.js [运行时间：0.084734s][吞吐率：11.80req/s] [内存消耗：1,796.87kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:33:00+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js [运行时间：0.113482s][吞吐率：8.81req/s] [内存消耗：1,796.84kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'My97DatePicker' => '4.8',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:33:00+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js [运行时间：0.054305s][吞吐率：18.41req/s] [内存消耗：1,796.91kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'laypage' => '1.2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:33:00+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js [运行时间：0.094565s][吞吐率：10.57req/s] [内存消耗：1,796.92kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:33:00+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/layer/2.4/layer.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/layer/2.4/layer.js [运行时间：0.101614s][吞吐率：9.84req/s] [内存消耗：1,796.91kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'layer' => '2.4',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:33:00+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js [运行时间：0.044463s][吞吐率：22.49req/s] [内存消耗：1,796.92kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:33:00+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js [运行时间：0.033215s][吞吐率：30.11req/s] [内存消耗：1,796.91kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:33:00+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js [运行时间：0.033080s][吞吐率：30.23req/s] [内存消耗：1,796.84kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'My97DatePicker' => '4.8',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:33:00+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js [运行时间：0.032511s][吞吐率：30.76req/s] [内存消耗：1,796.98kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'datatables' => '1.10.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:33:00+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js [运行时间：0.032900s][吞吐率：30.40req/s] [内存消耗：1,796.91kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'laypage' => '1.2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:06+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.043897s][吞吐率：22.78req/s] [内存消耗：2,016.58kb] [文件加载：54]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:06+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js [运行时间：0.071643s][吞吐率：13.96req/s] [内存消耗：1,797.59kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:06+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js [运行时间：0.079778s][吞吐率：12.53req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:06+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js [运行时间：0.081806s][吞吐率：12.22req/s] [内存消耗：1,797.68kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'datatables' => '1.10.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:06+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/layer/2.4/layer.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/layer/2.4/layer.js [运行时间：0.083188s][吞吐率：12.02req/s] [内存消耗：1,797.52kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'layer' => '2.4',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:06+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js [运行时间：0.084882s][吞吐率：11.78req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'My97DatePicker' => '4.8',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:06+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js [运行时间：0.050078s][吞吐率：19.97req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'laypage' => '1.2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:06+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/jquery/1.9.1/jquery.min.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/jquery/1.9.1/jquery.min.js [运行时间：0.048478s][吞吐率：20.63req/s] [内存消耗：1,797.51kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:06+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/layer/2.4/layer.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/layer/2.4/layer.js [运行时间：0.042974s][吞吐率：23.27req/s] [内存消耗：1,797.52kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'layer' => '2.4',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:06+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js [运行时间：0.047703s][吞吐率：20.96req/s] [内存消耗：1,797.59kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:06+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js [运行时间：0.038177s][吞吐率：26.19req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:06+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js [运行时间：0.038957s][吞吐率：25.67req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'My97DatePicker' => '4.8',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:06+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js [运行时间：0.042943s][吞吐率：23.29req/s] [内存消耗：1,797.68kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'datatables' => '1.10.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:06+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js [运行时间：0.043580s][吞吐率：22.95req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'laypage' => '1.2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:27+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.037507s][吞吐率：26.66req/s] [内存消耗：1,853.12kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:27+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/layer/2.4/layer.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/layer/2.4/layer.js [运行时间：0.061264s][吞吐率：16.32req/s] [内存消耗：1,797.52kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'layer' => '2.4',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:27+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js [运行时间：0.063517s][吞吐率：15.74req/s] [内存消耗：1,797.59kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:27+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js [运行时间：0.067755s][吞吐率：14.76req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'My97DatePicker' => '4.8',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:27+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js [运行时间：0.071957s][吞吐率：13.90req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:27+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/jquery/1.9.1/jquery.min.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/jquery/1.9.1/jquery.min.js [运行时间：0.083582s][吞吐率：11.96req/s] [内存消耗：1,797.45kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:27+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js [运行时间：0.054461s][吞吐率：18.36req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'laypage' => '1.2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:27+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js [运行时间：0.053202s][吞吐率：18.80req/s] [内存消耗：1,797.68kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'datatables' => '1.10.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:27+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/layer/2.4/layer.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/layer/2.4/layer.js [运行时间：0.050135s][吞吐率：19.95req/s] [内存消耗：1,797.52kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'layer' => '2.4',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:27+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js [运行时间：0.035440s][吞吐率：28.22req/s] [内存消耗：1,797.59kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:27+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js [运行时间：0.032054s][吞吐率：31.20req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:27+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js [运行时间：0.032271s][吞吐率：30.99req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'My97DatePicker' => '4.8',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:27+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js [运行时间：0.033117s][吞吐率：30.20req/s] [内存消耗：1,797.68kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'datatables' => '1.10.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:27+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js [运行时间：0.033334s][吞吐率：30.00req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'laypage' => '1.2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:32+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/index/index.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/index/index.html [运行时间：0.036526s][吞吐率：27.38req/s] [内存消耗：1,849.81kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/User/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\project\workspace\thinkphp5\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:34+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.032969s][吞吐率：30.33req/s] [内存消耗：1,852.73kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:35+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/jquery/1.9.1/jquery.min.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/jquery/1.9.1/jquery.min.js [运行时间：0.047265s][吞吐率：21.16req/s] [内存消耗：1,797.45kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:35+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js [运行时间：0.072524s][吞吐率：13.79req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'My97DatePicker' => '4.8',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:35+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js [运行时间：0.086856s][吞吐率：11.51req/s] [内存消耗：1,797.59kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:35+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js [运行时间：0.080610s][吞吐率：12.41req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:35+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js [运行时间：0.067910s][吞吐率：14.73req/s] [内存消耗：1,797.68kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'datatables' => '1.10.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:35+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js [运行时间：0.075258s][吞吐率：13.29req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'laypage' => '1.2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:35+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/layer/2.4/layer.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/layer/2.4/layer.js [运行时间：0.107839s][吞吐率：9.27req/s] [内存消耗：1,797.52kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'layer' => '2.4',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:35+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js [运行时间：0.033856s][吞吐率：29.54req/s] [内存消耗：1,797.59kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:35+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js [运行时间：0.032282s][吞吐率：30.98req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:35+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js [运行时间：0.032026s][吞吐率：31.22req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'My97DatePicker' => '4.8',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:35+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js [运行时间：0.033719s][吞吐率：29.66req/s] [内存消耗：1,797.68kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'datatables' => '1.10.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:35+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js [运行时间：0.033765s][吞吐率：29.62req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'laypage' => '1.2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:44+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.036930s][吞吐率：27.08req/s] [内存消耗：1,853.12kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:44+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js [运行时间：0.047078s][吞吐率：21.24req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:44+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/jquery/1.9.1/jquery.min.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/jquery/1.9.1/jquery.min.js [运行时间：0.052426s][吞吐率：19.07req/s] [内存消耗：1,797.45kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:44+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js [运行时间：0.057395s][吞吐率：17.42req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'My97DatePicker' => '4.8',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:44+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js [运行时间：0.060984s][吞吐率：16.40req/s] [内存消耗：1,797.59kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:44+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js [运行时间：0.054839s][吞吐率：18.24req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'laypage' => '1.2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:44+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js [运行时间：0.061742s][吞吐率：16.20req/s] [内存消耗：1,797.68kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'datatables' => '1.10.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:44+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/layer/2.4/layer.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/layer/2.4/layer.js [运行时间：0.058345s][吞吐率：17.14req/s] [内存消耗：1,797.52kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'layer' => '2.4',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:44+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js [运行时间：0.037483s][吞吐率：26.68req/s] [内存消耗：1,797.59kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:44+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js [运行时间：0.032374s][吞吐率：30.89req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:44+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js [运行时间：0.033181s][吞吐率：30.14req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'My97DatePicker' => '4.8',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:44+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js [运行时间：0.032583s][吞吐率：30.69req/s] [内存消耗：1,797.68kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'datatables' => '1.10.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:44+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js [运行时间：0.033835s][吞吐率：29.56req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'laypage' => '1.2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:47+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/index/index.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/index/index.html [运行时间：0.037481s][吞吐率：26.68req/s] [内存消耗：1,849.81kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/User/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\project\workspace\thinkphp5\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:36:58+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/index/index.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/index/index.html [运行时间：0.059894s][吞吐率：16.70req/s] [内存消耗：1,850.01kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/User/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\project\workspace\thinkphp5\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:37:02+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.050275s][吞吐率：19.89req/s] [内存消耗：1,852.73kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:37:02+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js [运行时间：0.061025s][吞吐率：16.39req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:37:02+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js [运行时间：0.077448s][吞吐率：12.91req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'My97DatePicker' => '4.8',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:37:02+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js [运行时间：0.080667s][吞吐率：12.40req/s] [内存消耗：1,797.68kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'datatables' => '1.10.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:37:02+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/jquery/1.9.1/jquery.min.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/jquery/1.9.1/jquery.min.js [运行时间：0.137605s][吞吐率：7.27req/s] [内存消耗：1,797.45kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'jquery' => '1.9.1',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:37:02+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/layer/2.4/layer.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/layer/2.4/layer.js [运行时间：0.166473s][吞吐率：6.01req/s] [内存消耗：1,797.52kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'layer' => '2.4',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:37:02+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui/js/H-ui.js [运行时间：0.170514s][吞吐率：5.86req/s] [内存消耗：1,797.59kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'ui' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:37:02+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js [运行时间：0.082540s][吞吐率：12.12req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'laypage' => '1.2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:37:02+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/static/h-ui.admin/js/H-ui.admin.page.js [运行时间：0.058145s][吞吐率：17.20req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'static',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'admin' => 'js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:37:02+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/My97DatePicker/4.8/WdatePicker.js [运行时间：0.042583s][吞吐率：23.48req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'My97DatePicker' => '4.8',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:37:02+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/datatables/1.10.0/jquery.dataTables.min.js [运行时间：0.066562s][吞吐率：15.02req/s] [内存消耗：1,797.68kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'datatables' => '1.10.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:37:02+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/lib/laypage/1.2/laypage.js [运行时间：0.058487s][吞吐率：17.10req/s] [内存消耗：1,797.55kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'lib',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'laypage' => '1.2',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:38:12+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.087960s][吞吐率：11.37req/s] [内存消耗：2,016.37kb] [文件加载：54]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:38:14+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/article-add.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/article-add.html [运行时间：0.042589s][吞吐率：23.48req/s] [内存消耗：1,797.84kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'article-add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:40:15+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/index/index.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/index/index.html [运行时间：0.061484s][吞吐率：16.26req/s] [内存消耗：1,849.81kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/User/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\project\workspace\thinkphp5\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:40:16+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/index/index.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/index/index.html [运行时间：0.050740s][吞吐率：19.71req/s] [内存消耗：1,850.01kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/User/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\project\workspace\thinkphp5\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:40:17+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.051379s][吞吐率：19.46req/s] [内存消耗：1,852.69kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:40:18+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/article-add.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/article-add.html [运行时间：0.065233s][吞吐率：15.33req/s] [内存消耗：1,797.84kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'article-add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:42:28+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/index/index.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/index/index.html [运行时间：0.055695s][吞吐率：17.95req/s] [内存消耗：1,849.81kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/User/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\project\workspace\thinkphp5\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:42:29+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/index/index.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/index/index.html [运行时间：0.056973s][吞吐率：17.55req/s] [内存消耗：1,850.01kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/User/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\project\workspace\thinkphp5\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\index\index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:42:30+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.053406s][吞吐率：18.72req/s] [内存消耗：2,015.88kb] [文件加载：54]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:42:31+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/addArticle.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/addArticle.html [运行时间：0.058863s][吞吐率：16.99req/s] [内存消耗：1,982.08kb] [文件加载：56]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'addArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->addArticle[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '(', expecting ',' or ';'[E:\project\workspace\thinkphp5\runtime\temp\a58697813a00e4ead054484144ef42a0.php:112]
+---------------------------------------------------------------
+[ 2017-09-15T10:43:30+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.065553s][吞吐率：15.25req/s] [内存消耗：1,853.09kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:43:32+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/addArticle.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/addArticle.html [运行时间：0.069209s][吞吐率：14.45req/s] [内存消耗：1,982.08kb] [文件加载：56]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'addArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->addArticle[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '(', expecting ',' or ';'[E:\project\workspace\thinkphp5\runtime\temp\a58697813a00e4ead054484144ef42a0.php:112]
+---------------------------------------------------------------
+[ 2017-09-15T10:45:49+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.065063s][吞吐率：15.37req/s] [内存消耗：1,853.09kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:45:51+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/addArticle.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/addArticle.html [运行时间：0.058502s][吞吐率：17.09req/s] [内存消耗：1,942.13kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'addArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->addArticle[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:46:10+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/addArticle.html?file=
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/addArticle.html?file= [运行时间：0.038500s][吞吐率：25.97req/s] [内存消耗：1,784.35kb] [文件加载：51]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'addArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/addArticle.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'file' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Article->addArticle[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:46:46+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.049380s][吞吐率：20.25req/s] [内存消耗：1,853.09kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:46:47+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/addArticle.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/addArticle.html [运行时间：0.055263s][吞吐率：18.10req/s] [内存消耗：1,943.08kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'addArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->addArticle[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:47:10+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/addArticle.html?file=
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/addArticle.html?file= [运行时间：0.038661s][吞吐率：25.87req/s] [内存消耗：1,784.37kb] [文件加载：51]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'addArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/addArticle.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'file' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Article->addArticle[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:47:10+08:00 ] 127.0.0.1 127.0.0.1 POST /thinkphp5/public/admin/Article/fileupload.php
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/fileupload.php [运行时间：0.058345s][吞吐率：17.14req/s] [内存消耗：1,798.02kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'fileupload.php',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '192348',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryHhIcgDFCABl29nZL',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/addArticle.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:47:48+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.039438s][吞吐率：25.36req/s] [内存消耗：1,853.09kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:47:54+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.055693s][吞吐率：17.96req/s] [内存消耗：1,853.09kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:47:55+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/addArticle.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/addArticle.html [运行时间：0.058827s][吞吐率：17.00req/s] [内存消耗：1,942.16kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'addArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->addArticle[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T10:48:56+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/addArticle.html?file=&editorValue=%3Cp%3E%3Cimg+src%3D%22%2Fueditor%2Fphp%2Fupload%2Fimage%2F20170915%2F1505443725911068.png%22+title%3D%221505443725911068.png%22+alt%3D%221501550856.png%22%2F%3E%3C%2Fp%3E
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/addArticle.html?file=&editorValue=%3Cp%3E%3Cimg+src%3D%22%2Fueditor%2Fphp%2Fupload%2Fimage%2F20170915%2F1505443725911068.png%22+title%3D%221505443725911068.png%22+alt%3D%221501550856.png%22%2F%3E%3C%2Fp%3E [运行时间：0.075437s][吞吐率：13.26req/s] [内存消耗：1,785.05kb] [文件加载：51]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'addArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/addArticle.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+  'file' => '',
+  'editorValue' => '<p><img src="/ueditor/php/upload/image/20170915/1505443725911068.png" title="1505443725911068.png" alt="1501550856.png"/></p>',
+)
+[ info ] [ RUN ] app\admin\controller\Article->addArticle[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T13:54:28+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/addArticle.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/addArticle.html [运行时间：0.067368s][吞吐率：14.84req/s] [内存消耗：1,783.98kb] [文件加载：51]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'addArticle',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->addArticle[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-add.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T13:54:33+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.082120s][吞吐率：12.18req/s] [内存消耗：1,852.73kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T13:54:36+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/product-brand.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/product-brand.html [运行时间：0.085406s][吞吐率：11.71req/s] [内存消耗：1,797.83kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'product-brand',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T13:54:38+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.068601s][吞吐率：14.58req/s] [内存消耗：1,852.73kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T13:54:45+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/product-list.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/product-list.html [运行时间：0.050697s][吞吐率：19.72req/s] [内存消耗：1,797.80kb] [文件加载：53]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'product-list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T13:54:47+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/Article/main.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/Article/main.html [运行时间：0.052560s][吞吐率：19.03req/s] [内存消耗：1,852.73kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Article',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->main[ E:\project\workspace\thinkphp5\application\admin\controller\Article.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\Article\article-list.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T13:54:52+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/AdminPermission/permissionList.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/AdminPermission/permissionList.html [运行时间：0.116068s][吞吐率：8.62req/s] [内存消耗：2,002.20kb] [文件加载：54]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'AdminPermission',
+    2 => 'permissionList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\AdminPermission->permissionList[ E:\project\workspace\thinkphp5\application\admin\controller\AdminPermission.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\AdminPermission\admin-permission.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-15T14:09:10+08:00 ] 127.0.0.1 127.0.0.1 GET /thinkphp5/public/admin/AdminPermission/permissionList.html
+[ info ] 127.0.0.1/thinkphp5/public/admin/AdminPermission/permissionList.html [运行时间：0.080957s][吞吐率：12.35req/s] [内存消耗：1,848.78kb] [文件加载：52]
+[ info ] [ LANG ] E:\project\workspace\thinkphp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'AdminPermission',
+    2 => 'permissionList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/thinkphp5/public/admin/Article/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_c61af27c9a7193b6d9aa19dd5dbe29e3=1503283740; Hm_lvt_080836300300be57b7f34f4b3e97d911=1504517166,1504576226,1504595565; PHPSESSID=i66lhjn1r9cuqf8f2on9ck5ft4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\AdminPermission->permissionList[ E:\project\workspace\thinkphp5\application\admin\controller\AdminPermission.php ]
+[ info ] [ VIEW ] E:\project\workspace\thinkphp5\public/../application/admin\view\AdminPermission\admin-permission.html [ array (
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
