@@ -1,0 +1,21 @@
+<!-- nav start -->
+<nav class="am-g am-g-fixed blog-fixed blog-nav">
+<button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only blog-button" data-am-collapse="{target: '#blog-collapse'}" ><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+  <div class="am-collapse am-topbar-collapse" id="blog-collapse">
+    <ul class="am-nav am-nav-pills am-topbar-nav">
+      <li class="am-active"><a href="{:url('FrontendIndex/main')}">首页</a></li>
+      <li><a href="{:url('FrontendIndex/artlist')}">文章列表</a></li>
+      <li><a href="{:url('FrontendPic/main')}">图片库</a></li>
+      <li><a href="{:url('FrontendIndex/addArts')}">发布文章</a></li>
+    </ul>
+    <form class="am-topbar-form am-topbar-right am-form-inline" role="search" method="GET" action="{:url('FrontendIndex/search')}" >
+      <div class="am-form-group">
+        <input type="text" class="am-form-field am-input-sm" value="" name="keyword" placeholder="文章搜索">
+        <input type="submit" style="background-color:#fff;border:1px solid #ccc;display:inline-block;padding:6px;margin-left:-5px" value="搜索一下">
+      </div>
+    </form>
+  </div>
+</nav>
+<hr>
+<!-- nav end -->
