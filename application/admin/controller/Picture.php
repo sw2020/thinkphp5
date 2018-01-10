@@ -78,8 +78,8 @@ class Picture extends Base {
 		$files = request()->file();
 		foreach ($files as $file){
 			$ext = $file->getExtension();
-			dump($ext);
 			
+			dump($file);die();
 			$img = \think\Image::open($file);
 			$info = $file->move(ROOT_PATH.'public'.DS.'uploads');
 			

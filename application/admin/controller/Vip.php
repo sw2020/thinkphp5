@@ -4,6 +4,7 @@ namespace app\admin\controller;
 use app\admin\controller\Base;
 use app\admin\model\Vip as VipModel;
 use think\Request;
+use phpDocumentor\Reflection\DocBlock\Tags\Var_;
 class Vip extends Base{
 	protected function validateRule(){
 		return array(
@@ -193,6 +194,15 @@ class Vip extends Base{
 			}
 		}
 		return ['status'=>$status,'message'=>$message];
+	}
+	
+	public function showtest(){
+		return $this->view->fetch('model/index');
+	}
+	
+	public function test(Request $request){
+		$data = $_FILES['file_data']['name'];
+		return ['data'=>$data];
 	}
 }
 ?>

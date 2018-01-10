@@ -7,8 +7,8 @@ use app\admin\model\Picture;
 use think\Session;
 use app\admin\model\Vip;
 use think\Request;
-use phpDocumentor\Reflection\DocBlock\Tags\Var_;
 use think\Db;
+use app\admin\model\Review;
 
 class FrontendIndex extends Base{
 	/**
@@ -50,10 +50,14 @@ class FrontendIndex extends Base{
 				'glance'=> $article['glance']+1
 		],['id'=>$id]);
 		
+		//获取留言信息
+		$ReviewModel = new Review();
+		$reviews = $ReviewModel->all(['aid'=>$id]);
+		
 		//获取用户信息
 		@$uid = Session::get('blogid');
 		@$user = Vip::get(['id'=>$uid]);
-		$this->view->assign('article',$article)->assign('user',@$user);
+		$this->view->assign('article',$article)->assign('user',@$user)->assign('reviews',@$reviews);
 		return $this->view->fetch('frontend/lw-article');
 	}
 	/**
@@ -73,11 +77,7 @@ class FrontendIndex extends Base{
 	 * 发表文章页面
 	 */
 	public function addArts(){
-		$user_id = session('user_id');
-		if (!isset($user_id) || empty($user_id)){
-			//未登陆
-			$this->error('请先登陆！','FrontendLog/log');
-		}
+		$this->blogisLogin();
 		
 		//获取用户信息
 		@$uid = Session::get('blogid');
@@ -102,12 +102,29 @@ class FrontendIndex extends Base{
 		return $this->view->fetch('frontend/lw-list');
 	}
 	
+	/**
+	 * 留言功能
+	 * @param Request $requst  前台传过来的数据
+	 * @return number[]|string[]
+	 */
 	public function review(Request $requst){
 		$status = 0;
+		$message = '';
 		$data = $requst->param();
+		
 		if (!isset($data['uid']) || empty($data['uid'])){
 			$message = "请先登录！";
+		}else {
+			$data['create_time'] = time();
+			$ReviewModel = new Review($data);
+			$ReviewModel->allowField(true)->save();
+			if (isset($ReviewModel['id']) && !empty($ReviewModel['id'])){
+				$message = "留言成功";
+				$status = 1;
+			}else {
+				$message = "内部服务器错误";
+			}
 		}
-		
+		return ['status'=>$status,'message'=>$message];
 	}
 }

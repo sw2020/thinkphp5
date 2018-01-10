@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>文件上传</title>
+		<link rel="stylesheet" href="__STATIC__/fileinput/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="__STATIC__/fileinput/css/default.css" />
+		<link rel="stylesheet" href="__STATIC__/fileinput/css/fileinput.css" />
+		<script type="text/javascript" src="__STATIC__/fileinput/js/jquery-1.12.2.min.js" ></script>
+		<script type="text/javascript" src="__STATIC__/fileinput/js/fileinput.min.js" ></script>
+		<script type="text/javascript" src="__STATIC__/fileinput/js/zh.js" ></script>
+		<script type="text/javascript" src="__STATIC__/fileinput/js/bootstrap.min.js" ></script>
+		
+		
+		<style type="text/css">
+			h5{font-weight: bold;}
+			.model_info_div{margin-bottom: 5px;}
+			.model_info_div span{font-size: 14px;}
+			.kv-file-zoom{display: none;}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h3>上传文件</h3>
+			<hr />
+				
+			<div class="">
+                <div class="container kv-main">
+                    <form enctype="multipart/form-data">
+                        <input id="file-zh" class="file" type="file" data-min-file-count="1">
+                    </form>
+                    <hr>
+                </div>
+            </div>
+            <div style="margin: -30px 10px 15px;">MD5:<span style="color: #4CAE4C;"> e10adc3949ba59abbe56e057f20f883e</span></div>
+			<form action="" method="">	
+				<h5>model 信息</h5>
+				<div class="form-inline clearfix" >
+					<div class="model_info_div">
+						<span>产品类型：</span>
+						<select class="form-control">
+						  <option value="" selected="selected">产品类型</option>
+						  <option value="">Mercedes</option>
+						  <option value="">Audi</option>
+						</select>
+					</div>
+					
+					<div class="model_info_div">
+						<span>model类型：</span>
+						<select class="form-control ">
+						  <option value="" selected="selected">model类型</option>
+						  <option value="">Mercedes</option>
+						  <option value="">Audi</option>
+						</select>
+					</div>
+					
+					<div class="model_info_div">
+						<span>产品版本号：</span>
+						<input class="form-control" type="text" value="" name="" /><span style="font-style: italic;"> 格式：123.123.123</span>
+					</div>
+				</div>
+				
+				<hr />
+				<h5>自动配置路径（请填写压缩包的文件路径）</h5>
+				<textarea class="form-control" name="" rows="3" ></textarea>
+				
+				<h5>升级说明英文描述</h5>
+				<textarea class="form-control" name="" rows="3" ></textarea>
+				
+				<h5>升级说明中文描述</h5>
+				<textarea class="form-control" name="" rows="3" ></textarea>
+				<hr style="visibility: hidden;" />
+			 	<button type="button" class="btn btn-default">返回列表</button>&nbsp;
+			 	<button type="submit" class="btn btn-primary">提交</button>
+			</form>
+			<br /><br /><br /><br />
+		</div>
+	</body>
+	<script>
+		
+    $("#file-zh").fileinput({
+  	  language: 'zh', //加载中文语言包
+      uploadUrl: '{:url('Vip/test')}', // 后台接受的路径
+      allowedFileExtensions : ['zip'],
+      overwriteInitial: false,
+//    maxFileSize: 1000,  //允许上传的大小  
+      maxFilesNum: 1,  //允许上传的文件数
+      dropZoneEnabled:false,  //是否显示拖拽区域
+	}).on('fileuploaded',   
+		    function(data) {  
+		   console.log(data.response);
+	});  
+   
+	</script>
+</html>

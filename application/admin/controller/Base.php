@@ -22,5 +22,13 @@ class Base extends \think\Controller {
 		}
 	}
 	
+	//判断用户是否登陆
+	protected function blogisLogin() {
+		$user_id = session('blogid');
+		if (!isset($user_id) || empty($user_id)){
+			//未登陆
+			$this->error('请先登陆！','admin/FrontendLog/log');
+		}
+	}
 }
 ?>

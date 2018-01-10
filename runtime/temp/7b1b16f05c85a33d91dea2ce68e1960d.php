@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:88:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\lw-article.html";i:1510898962;s:91:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\header.html";i:1509948052;s:88:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\nav.html";i:1510887650;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:88:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\lw-article.html";i:1513663640;s:91:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\header.html";i:1509948052;s:88:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\nav.html";i:1511501379;}*/ ?>
 <!doctype html>
 <html>
 <head>
@@ -46,6 +46,7 @@
       <li><a href="<?php echo url('FrontendIndex/artlist'); ?>">文章列表</a></li>
       <li><a href="<?php echo url('FrontendPic/main'); ?>">图片库</a></li>
       <li><a href="<?php echo url('FrontendIndex/addArts'); ?>">发布文章</a></li>
+      <li><a href="<?php echo url('PersenalCenter/main'); ?>">个人中心</a></li>
     </ul>
     <form class="am-topbar-form am-topbar-right am-form-inline" role="search" method="GET" action="<?php echo url('FrontendIndex/search'); ?>" >
       <div class="am-form-group">
@@ -111,7 +112,7 @@
         
         <hr>
 
-        <form class="am-form am-g" method="post" action="<?php echo url('FrontendIndex/review'); ?>">
+        <form class="am-form am-g" method="post" action="" id="reviews">
             <h3 class="blog-comment">评论</h3>
           <fieldset>
            <!--   <div class="am-form-group am-u-sm-4 blog-clear-left">
@@ -127,14 +128,32 @@
         
             <div class="am-form-group">
             	<input type="hidden" class="" name="uid" value="<?php echo \think\Session::get('blogid'); ?>">
+            	<input type="hidden" class="" name="aid" value="<?php echo $article['id']; ?>">
               <textarea class="" rows="5" name="review" placeholder="请输入留言内容.."></textarea>
             </div>
         
-            <p><button type="submit" class="am-btn am-btn-default">发表评论</button></p>
+            <p><button type="button" class="am-btn am-btn-default" id="sub_review">发表评论</button></p>
           </fieldset>
         </form>
 
         <hr>
+        
+        <!-- 显示留言区域 -->
+        <?php if(is_array($reviews) || $reviews instanceof \think\Collection || $reviews instanceof \think\Paginator): $i = 0; $__LIST__ = $reviews;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?>
+         <div class="am-g blog-author blog-article-margin">
+          <div class="am-u-sm-5 am-u-md-5 am-u-lg-3" style="text-align:center">
+            <img src="__STATIC__/frontend/assets/i/f15.jpg" alt="" class="blog-author-img am-circle"><br/>
+        	 <span class="blog-color" style="display:block;margin-top:4px"><?php echo $article['author']; ?></span>
+          </div>
+          <div class="am-u-sm-7 am-u-md-7 am-u-lg-9" style="padding-top:20px">
+          
+            <p><?php echo $vo['review']; ?></p>
+            <span style="float:right"><?php echo $vo['create_time']; ?></span>
+          </div>
+        </div><hr/>
+        <?php endforeach; endif; else: echo "" ;endif; ?>
+        <!-- end -->
+        
     </div>
 
     <div class="am-u-md-4 am-u-sm-12 blog-sidebar">
@@ -224,6 +243,15 @@
 <script type="text/javascript" src="__STATIC__/lib/layer/2.4/layer.js"></script>
 <script>
 	$(function(){
+		$("#sub_review").on("click",function(){
+			$.post("<?php echo url('FrontendIndex/review'); ?>",$("#reviews").serialize(),function(data){
+				alert(data.message);
+				if(data.status == 1 ){
+					window.location.href ="<?php echo url('FrontendIndex/articleDiteils',['id'=>$article['id']]); ?>";
+				}
+			});
+		});
+		
 		//激活会员
 		$(".active-vip").on('click',function(){
 			layer.confirm('激活会员需支付每月 10 元的费用，您确定要激活吗？',function(){

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:86:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\lw-index.html";i:1509949524;s:91:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\header.html";i:1509948052;s:88:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\nav.html";i:1510887650;s:91:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\footer.html";i:1509949987;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:86:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\lw-index.html";i:1509949524;s:91:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\header.html";i:1509948052;s:88:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\nav.html";i:1513760551;s:91:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\footer.html";i:1509949987;}*/ ?>
 <!doctype html>
 <html>
 <head>
@@ -43,6 +43,7 @@
       <li><a href="<?php echo url('FrontendIndex/artlist'); ?>">文章列表</a></li>
       <li><a href="<?php echo url('FrontendPic/main'); ?>">图片库</a></li>
       <li><a href="<?php echo url('FrontendIndex/addArts'); ?>">发布文章</a></li>
+      <li><a href="<?php echo url('PersenalCenter/main'); ?>">个人中心</a></li>
     </ul>
     <form class="am-topbar-form am-topbar-right am-form-inline" role="search" method="GET" action="<?php echo url('FrontendIndex/search'); ?>" >
       <div class="am-form-group">

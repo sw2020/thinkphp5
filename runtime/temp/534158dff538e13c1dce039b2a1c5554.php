@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:99:"E:\project\workspace\thinkphp5\public/../application/admin\view\AdminPermission\permission-add.html";i:1507877178;s:80:"E:\project\workspace\thinkphp5\public/../application/admin\view\public\meta.html";i:1504605462;s:82:"E:\project\workspace\thinkphp5\public/../application/admin\view\public\footer.html";i:1504578213;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:99:"E:\project\workspace\thinkphp5\public/../application/admin\view\AdminPermission\permission-add.html";i:1507877500;s:80:"E:\project\workspace\thinkphp5\public/../application/admin\view\public\meta.html";i:1504605462;s:82:"E:\project\workspace\thinkphp5\public/../application/admin\view\public\footer.html";i:1504578213;}*/ ?>
 <!--_meta 作为公共模版分离出去-->
 <!DOCTYPE HTML>
 <html>
@@ -77,12 +77,15 @@ $(function(){
 			success:function(data){
 				if(data.status == 1){
 					layer.msg(data.message,{icon:1,time:3000});
-					 //刷新页面
-			        parent.window.location.href='<?php echo url("AdminPermission/permissionList"); ?>';
-			        //获取窗口索引
-			        var index = parent.layer.getFrameIndex(window.name);
-			        //关闭弹出层
-			        parent.layer.close(index);
+			        
+					setTimeout(function(){
+			        	 //刷新页面
+				        parent.window.location.href='<?php echo url("AdminPermission/permissionList"); ?>';
+				        //获取窗口索引
+				        var index = parent.layer.getFrameIndex(window.name);
+				        //3s后关闭弹出层
+			        	parent.layer.close(index);
+			        },3000);
 				}else{
 					layer.msg(data.message,{icon:2,time:2000});
 				}

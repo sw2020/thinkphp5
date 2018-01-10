@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:84:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\lw-add.html";i:1510826814;s:91:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\header.html";i:1509948052;s:88:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\nav.html";i:1510887650;s:91:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\footer.html";i:1509949987;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:84:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\lw-add.html";i:1512094837;s:91:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\header.html";i:1509948052;s:88:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\nav.html";i:1511501379;s:91:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\footer.html";i:1509949987;}*/ ?>
 <!doctype html>
 <html>
 <head>
@@ -45,6 +45,7 @@
       <li><a href="<?php echo url('FrontendIndex/artlist'); ?>">文章列表</a></li>
       <li><a href="<?php echo url('FrontendPic/main'); ?>">图片库</a></li>
       <li><a href="<?php echo url('FrontendIndex/addArts'); ?>">发布文章</a></li>
+      <li><a href="<?php echo url('PersenalCenter/main'); ?>">个人中心</a></li>
     </ul>
     <form class="am-topbar-form am-topbar-right am-form-inline" role="search" method="GET" action="<?php echo url('FrontendIndex/search'); ?>" >
       <div class="am-form-group">
@@ -145,34 +146,7 @@
           </div>
         </div>
         <hr>
-        <ul class="am-pagination blog-article-margin">
-          <li class="am-pagination-prev"><a href="#" class="">&laquo; 一切的回顾</a></li>
-          <li class="am-pagination-next"><a href="">不远的未来 &raquo;</a></li>
-        </ul>
-        
-        <hr>
 
-        <form class="am-form am-g">
-            <h3 class="blog-comment">评论</h3>
-          <fieldset>
-            <!--  <div class="am-form-group am-u-sm-4 blog-clear-left">
-              <input type="text" class="" placeholder="名字">
-            </div>
-            <div class="am-form-group am-u-sm-4">
-              <input type="email" class="" placeholder="邮箱">
-            </div>
-
-            <div class="am-form-group am-u-sm-4 blog-clear-right">
-              <input type="password" class="" placeholder="网站">
-            </div>-->
-        
-            <div class="am-form-group">
-              <textarea class="" rows="5" placeholder="请输入留言内容.."></textarea>
-            </div>
-        
-            <p><button type="submit" class="am-btn am-btn-default">发表评论</button></p>
-          </fieldset>
-        </form>
 
         <hr>
     </div>

@@ -120,16 +120,26 @@ function getmenu(){
 				</dd>
 			</dl>';
 				break;
-			case 8:
-				echo '<dl id="menu-system">
-						<dt><i class="Hui-iconfont">&#xe62e;</i> 系统管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+// 			case 8:
+// 				echo '<dl id="menu-system">
+// 						<dt><i class="Hui-iconfont">&#xe62e;</i> 系统管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
+// 						<dd>
+// 							<ul>
+// 								<li><a href="system-base.html" title="系统设置">系统设置</a></li>
+// 						<!--		<li><a href="system-category.html" title="栏目管理">栏目管理</a></li>
+// 								<li><a href="system-data.html" title="数据字典">数据字典</a></li>
+// 								<li><a href="system-shielding.html" title="屏蔽词">屏蔽词</a></li>
+// 								<li><a href="system-log.html" title="系统日志">系统日志</a></li>		-->
+// 					</ul>
+// 				</dd>
+// 			</dl>';
+// 				break;
+			case 14:
+				echo '<dl id="menu-article">
+					<dt><i class="Hui-iconfont">&#xe616;</i> 文件管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 						<dd>
 							<ul>
-								<li><a href="system-base.html" title="系统设置">系统设置</a></li>
-						<!--		<li><a href="system-category.html" title="栏目管理">栏目管理</a></li>
-								<li><a href="system-data.html" title="数据字典">数据字典</a></li>
-								<li><a href="system-shielding.html" title="屏蔽词">屏蔽词</a></li>
-								<li><a href="system-log.html" title="系统日志">系统日志</a></li>		-->
+								<li><a href="'.url('FileManage/main').'" title="文件管理">文件管理</a></li>
 					</ul>
 				</dd>
 			</dl>';
@@ -138,5 +148,24 @@ function getmenu(){
 	}
 }
 
+
+/**
+ * 将字节单位自动转化成 KB ,MB GB TB
+ * @param 文件的字节大小 $bytesize
+ * @return 文件大小
+ */
+function sizeformat($bytesize){
+	$i=0;
+	//当$bytesize 大于是1024字节时，开始循环，当循环到第4次时跳出；
+	while(abs($bytesize)>=1024){
+		$bytesize=$bytesize/1024;
+		$i++;
+		if($i==4)break;
+	}
+	//将Bytes,KB,MB,GB,TB定义成一维数组；
+	$units= array("B","KB","MB","GB","TB");
+	$newsize=round($bytesize,2);
+	return("$newsize $units[$i]");
+}
 
 ?>
