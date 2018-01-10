@@ -69,7 +69,11 @@
         
         <hr>
 
+<<<<<<< HEAD
         <form class="am-form am-g" method="post" action="" id="reviews">
+=======
+        <form class="am-form am-g" method="post" action="{:url('FrontendIndex/review')}">
+>>>>>>> 0e03570ddf72ea9a237a1e0574242415e71446c4
             <h3 class="blog-comment">评论</h3>
           <fieldset>
            <!--   <div class="am-form-group am-u-sm-4 blog-clear-left">
@@ -85,15 +89,23 @@
         
             <div class="am-form-group">
             	<input type="hidden" class="" name="uid" value="{$Think.session.blogid}">
+<<<<<<< HEAD
             	<input type="hidden" class="" name="aid" value="{$article.id}">
               <textarea class="" rows="5" name="review" placeholder="请输入留言内容.."></textarea>
             </div>
         
             <p><button type="button" class="am-btn am-btn-default" id="sub_review">发表评论</button></p>
+=======
+              <textarea class="" rows="5" name="review" placeholder="请输入留言内容.."></textarea>
+            </div>
+        
+            <p><button type="submit" class="am-btn am-btn-default">发表评论</button></p>
+>>>>>>> 0e03570ddf72ea9a237a1e0574242415e71446c4
           </fieldset>
         </form>
 
         <hr>
+<<<<<<< HEAD
         
         <!-- 显示留言区域 -->
         {volist name = "reviews" id="vo"}
@@ -111,6 +123,8 @@
         {/volist}
         <!-- end -->
         
+=======
+>>>>>>> 0e03570ddf72ea9a237a1e0574242415e71446c4
     </div>
 
     <div class="am-u-md-4 am-u-sm-12 blog-sidebar">
@@ -200,6 +214,7 @@
 <script type="text/javascript" src="__STATIC__/lib/layer/2.4/layer.js"></script>
 <script>
 	$(function(){
+<<<<<<< HEAD
 		$("#sub_review").on("click",function(){
 			$.post("{:url('FrontendIndex/review')}",$("#reviews").serialize(),function(data){
 				alert(data.message);
@@ -209,6 +224,8 @@
 			});
 		});
 		
+=======
+>>>>>>> 0e03570ddf72ea9a237a1e0574242415e71446c4
 		//激活会员
 		$(".active-vip").on('click',function(){
 			layer.confirm('激活会员需支付每月 10 元的费用，您确定要激活吗？',function(){
