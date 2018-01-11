@@ -4,10 +4,6 @@ namespace app\admin\controller;
 use app\admin\controller\Base;
 use app\admin\model\Vip as VipModel;
 use think\Request;
-<<<<<<< HEAD
-use phpDocumentor\Reflection\DocBlock\Tags\Var_;
-=======
->>>>>>> 0e03570ddf72ea9a237a1e0574242415e71446c4
 class Vip extends Base{
 	protected function validateRule(){
 		return array(
@@ -198,7 +194,6 @@ class Vip extends Base{
 		}
 		return ['status'=>$status,'message'=>$message];
 	}
-<<<<<<< HEAD
 	
 	public function showtest(){
 		return $this->view->fetch('model/index');
@@ -208,7 +203,5 @@ class Vip extends Base{
 		$data = $_FILES['file_data']['name'];
 		return ['data'=>$data];
 	}
-=======
->>>>>>> 0e03570ddf72ea9a237a1e0574242415e71446c4
 }
 ?>

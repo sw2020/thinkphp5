@@ -7,13 +7,9 @@ use app\admin\model\Picture;
 use think\Session;
 use app\admin\model\Vip;
 use think\Request;
-<<<<<<< HEAD
 use think\Db;
 use app\admin\model\Review;
-=======
-use phpDocumentor\Reflection\DocBlock\Tags\Var_;
-use think\Db;
->>>>>>> 0e03570ddf72ea9a237a1e0574242415e71446c4
+use phpDocumentor\Reflection\Location;
 
 class FrontendIndex extends Base{
 	/**
@@ -55,21 +51,27 @@ class FrontendIndex extends Base{
 				'glance'=> $article['glance']+1
 		],['id'=>$id]);
 		
-<<<<<<< HEAD
 		//获取留言信息
 		$ReviewModel = new Review();
 		$reviews = $ReviewModel->all(['aid'=>$id]);
+		for ($i=0;$i<count($reviews);$i++){
+			
+			$Vip = Vip::get(['id'=>$reviews[$i]['uid']]);
+			$reviews[$i]['vip'] = $Vip['vip'];
+			$reviews[$i]['sex'] = $Vip['sex'];
+			$reviews[$i]['beizhu'] = $Vip['beizhu'];
+			$reviews[$i]['username'] = $Vip['username'];
+			$reviews[$i]['user_icon'] = $Vip['user_icon'];
+		}
 		
 		//获取用户信息
 		@$uid = Session::get('blogid');
 		@$user = Vip::get(['id'=>$uid]);
 		$this->view->assign('article',$article)->assign('user',@$user)->assign('reviews',@$reviews);
-=======
 		//获取用户信息
 		@$uid = Session::get('blogid');
 		@$user = Vip::get(['id'=>$uid]);
 		$this->view->assign('article',$article)->assign('user',@$user);
->>>>>>> 0e03570ddf72ea9a237a1e0574242415e71446c4
 		return $this->view->fetch('frontend/lw-article');
 	}
 	/**
@@ -89,15 +91,12 @@ class FrontendIndex extends Base{
 	 * 发表文章页面
 	 */
 	public function addArts(){
-<<<<<<< HEAD
 		$this->blogisLogin();
-=======
 		$user_id = session('user_id');
 		if (!isset($user_id) || empty($user_id)){
 			//未登陆
 			$this->error('请先登陆！','FrontendLog/log');
 		}
->>>>>>> 0e03570ddf72ea9a237a1e0574242415e71446c4
 		
 		//获取用户信息
 		@$uid = Session::get('blogid');
@@ -122,7 +121,6 @@ class FrontendIndex extends Base{
 		return $this->view->fetch('frontend/lw-list');
 	}
 	
-<<<<<<< HEAD
 	/**
 	 * 留言功能
 	 * @param Request $requst  前台传过来的数据
@@ -146,15 +144,10 @@ class FrontendIndex extends Base{
 				$message = "内部服务器错误";
 			}
 		}
-		return ['status'=>$status,'message'=>$message];
-=======
-	public function review(Request $requst){
-		$status = 0;
-		$data = $requst->param();
-		if (!isset($data['uid']) || empty($data['uid'])){
-			$message = "请先登录！";
-		}
 		
->>>>>>> 0e03570ddf72ea9a237a1e0574242415e71446c4
+		alertMes($message, $_SERVER['HTTP_REFERER']);
 	}
+	
+	
+	
 }

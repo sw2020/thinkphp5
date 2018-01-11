@@ -25,13 +25,8 @@ Route::post('User/change_pwd','User/change_pwd');
 //找回密码
 Route::post('User/find_pwd','User/find_pwd');
 
-<<<<<<< HEAD
-Route::rule('index/1','admin/FrontendIndex/main');
-Route::rule('article/list','admin/FrontendIndex/artlist');
-=======
-
-
->>>>>>> 0e03570ddf72ea9a237a1e0574242415e71446c4
+// Route::rule('index/1','admin/FrontendIndex/main');
+// Route::rule('article/list','admin/FrontendIndex/artlist');
 
 return [
     '__pattern__' => [

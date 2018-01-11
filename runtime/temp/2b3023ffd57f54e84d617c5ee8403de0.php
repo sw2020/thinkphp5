@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:86:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\lw-index.html";i:1509949524;s:91:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\header.html";i:1509948052;s:88:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\nav.html";i:1513760551;s:91:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\footer.html";i:1509949987;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:86:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\lw-index.html";i:1509949524;s:91:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\header.html";i:1509948052;s:88:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\nav.html";i:1515638101;s:91:"E:\project\workspace\thinkphp5\public/../application/admin\view\frontend\public\footer.html";i:1509949987;}*/ ?>
 <!doctype html>
 <html>
 <head>

@@ -120,7 +120,6 @@ function getmenu(){
 				</dd>
 			</dl>';
 				break;
-<<<<<<< HEAD
 // 			case 8:
 // 				echo '<dl id="menu-system">
 // 						<dt><i class="Hui-iconfont">&#xe62e;</i> 系统管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
@@ -140,8 +139,9 @@ function getmenu(){
 					<dt><i class="Hui-iconfont">&#xe616;</i> 文件管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
 						<dd>
 							<ul>
-								<li><a href="'.url('FileManage/main').'" title="文件管理">文件管理</a></li>
-=======
+								<li><a href="'.url('FileManage/main').'" title="文件管理">文件管理</a></li><ul/>';
+				break;
+
 			case 8:
 				echo '<dl id="menu-system">
 						<dt><i class="Hui-iconfont">&#xe62e;</i> 系统管理<i class="Hui-iconfont menu_dropdown-arrow">&#xe6d5;</i></dt>
@@ -152,7 +152,6 @@ function getmenu(){
 								<li><a href="system-data.html" title="数据字典">数据字典</a></li>
 								<li><a href="system-shielding.html" title="屏蔽词">屏蔽词</a></li>
 								<li><a href="system-log.html" title="系统日志">系统日志</a></li>		-->
->>>>>>> 0e03570ddf72ea9a237a1e0574242415e71446c4
 					</ul>
 				</dd>
 			</dl>';
@@ -162,7 +161,6 @@ function getmenu(){
 }
 
 
-<<<<<<< HEAD
 /**
  * 将字节单位自动转化成 KB ,MB GB TB
  * @param 文件的字节大小 $bytesize
@@ -182,6 +180,13 @@ function sizeformat($bytesize){
 	return("$newsize $units[$i]");
 }
 
-=======
->>>>>>> 0e03570ddf72ea9a237a1e0574242415e71446c4
+/**
+ * 跳转，提示
+ * @param unknown $mes
+ * @param unknown $url
+ */
+function alertMes($mes,$url){
+	echo "<script type='text/javascript'> alert('{$mes}');location.href='$url';</script>";
+}
+
 ?>

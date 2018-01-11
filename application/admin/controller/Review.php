@@ -8,8 +8,5 @@ class Review extends Base{
 		return $this->view->fetch('public/codeing');
 	}
 	
-	public function rollBack(){
-		return $this->view->fetch('public/codeing');
-	}
 }
 ?>
