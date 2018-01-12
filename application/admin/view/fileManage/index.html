@@ -60,9 +60,9 @@
 								<a title="查看" href="javascript:;" onclick="member_show('查看','{:url("FileManage/show","filename=".$val)}','{$val}','','510')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe695;</i></a> 
 								<a title="重命名" href="javascript:;" onclick="member_add('重命名','{:url("FileManage/rename","filename=".$val)}','800','210')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe66c;</i></a>
 								<a title="编辑" href="javascript:;" onclick="member_edit('编辑','{:url("FileManage/editPage","filename=".$val)}','4','','510')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6df;</i></a> 
-								<a title="复制" href="javascript:;" onclick="member_copy('复制','{:url("FileManage/copyPage","filename=".$val)}','4','','510')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6ea;</i></a> 
+								<a title="复制" href="javascript:;" onclick="member_copy(this,'{$val}')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6ea;</i></a> 
 								<a title="剪切" href="javascript:;" onclick="member_cut('剪切','{:url("FileManage/cutPage","filename=".$val)}','4','','510')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe64e;</i></a> 
-								<a title="下载" href="javascript:;" onclick="member_show('下载','{:url("FileManage/downloadfile","filename=".$val)}','{$val}','','510')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe640;</i></a>
+								<a title="下载" href="javascript:;" onclick="member_download('下载','{:url("FileManage/downloadfile","filename=".$val)}','{$val}','','510')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe640;</i></a>
 								<a title="删除" href="javascript:;" onclick="member_del(this,'{$val}')" class="ml-5" style="text-decoration:none"><i class="Hui-iconfont">&#xe6e2;</i></a></td>
 						</tr>
 						
@@ -120,6 +120,20 @@ function member_show(title,url,id,w,h){
 	layer.full(index);
 }
 
+/*文件下载*/
+function member_download(title,url,id,w,h){
+	var index = layer.open({
+		type: 2,
+		title: title,
+		content: url
+	});
+	layer.full(index);
+	setTimeout(function(){
+		layer.closeAll();
+	},2000);
+}
+
+
 /*用户-编辑*/
 function member_edit(title,url,id,w,h){
 	var index = layer.open({
@@ -141,6 +155,17 @@ function member_del(obj,filename){
 			}
 		});
 		
+	});
+}
+
+function member_copy(obj,filename){
+	$.post("{:url('FileManage/copyfile')}",{'filename':filename},function(data){
+		if(data.status == 1){
+			window.location.reload();
+			layer.msg(data.message,{icon:1,time:1000});
+		}else{
+			layer.msg(data.message,{icon:2,time:1000});
+		}
 	});
 }
 

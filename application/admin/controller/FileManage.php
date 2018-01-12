@@ -197,6 +197,10 @@ class FileManage extends Base{
 		return $arr;
 	}
 	
+	/**
+	 * 下载文件
+	 * @return string
+	 */
 	public function downloadfile(){
 		$filename = input('filename');
 		$file = $this->getpath().$filename;
@@ -210,8 +214,24 @@ class FileManage extends Base{
 		}else {
 			echo "该文件已被删除";
 		}
-		
 		return $this->view->fetch('public/test');
+	}
+	
+	public function copyfile(){
+		$filename = input('filename');
+		$path = $this->getpath();
+		$file = $path.$filename;
+		$newfile = $path.'附件'.$filename;
+		
+		if(copy($file,$newfile)){
+			$status =1;
+			$message = "复制成功";
+		}else {
+			$status = 0;
+			$message = '复制失败';
+		}
+		
+		return ['status'=>$status,'message'=>$message];
 	}
 	
 	public function getpath(){
