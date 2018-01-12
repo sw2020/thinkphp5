@@ -66,41 +66,52 @@ class FileManage extends Base{
 // 		$data = explode('/',$data);
 // 		$filename = end($data);
 		$path = $this->getpath();  //文件目录路径
+		
 		$extarr = explode('.',$filename);
 		$ext = strtolower(end($extarr));
 		$picArr = array('gif','png','jpg','jpeg');
+		$txtArr = array('txt','html','php','css');
 		///判断是不是图片类型
 		if (in_array($ext,$picArr)){
 			$this->view->assign('pic',$filename);
-		}else {
+		}elseif (in_array($ext,$txtArr)) {
 			$file = file_get_contents($path.$filename);
 			if (strlen($file)>0){
 				$this->view->assign('file',$file);
 			}else {
 				$this->view->assign('file','当前文件没有内容！');
 			}
+		}else {
+			$this->view->assign('file','该文件类型不可查看！');
 		}
 		
 		return $this->view->fetch('fileManage/fileshow');
 	}
 	
+	/**
+	 * 修改文件  页面
+	 * @return string
+	 */
 	public function editPage(){
 		$filename = input('filename');
 		$path = $this->getpath();
 		$extarr = explode('.',$filename);
 		$ext = strtolower(end($extarr));
-		$picArr = array('gif','png','jpg','jpeg');
+		$picArr = array('html','css','txt','php');
 		
 		if (in_array($ext,$picArr)){
 // 			$this->view->assign('file',"不能修改图片类型");
-			echo "不能修改图片类型!";
-		}else {
 			$file = file_get_contents($path.$filename);
 			$this->view->assign('file',$file)->assign('filename',$filename);
 			return $this->view->fetch('fileManage/editfile');
+		}else {
+			echo "该文件类型不可修改!";
 		}
 	}
 	
+	/**
+	 * 修改文件内容
+	 */
 	public function edit(){
 		$filename = $_POST['filename'];
 		$filecontent = $_POST['filecontent'];
@@ -113,6 +124,35 @@ class FileManage extends Base{
 			$message = "修改文件失败";
 		}
 		alertMes($message, Url::build('FileManage/show','filename='.$filename));
+	}
+	/**
+	 * 文件重命名
+	 * @return string
+	 */
+	public function rename(){
+		$oldfilename = input('filename');
+		$path = ROOT_PATH.'/public/fileManage/';  //文件目录路径
+		$this->view->assign('oldfilename',$oldfilename);
+		return $this->view->fetch('fileManage/rename');
+	}
+	/**
+	 * 文件重命名的操作
+	 * @return number[]|string[]
+	 */
+	public function filerename(){
+		$oldname = $_POST['oldfilename'];
+		$filename = $_POST['filename'];
+		$path = $this->getpath();
+		
+		$res = rename($path.$oldname,$path.$filename);
+		if ($res ==true){
+			$status = 1;
+			$message = "修改成功";
+		}else {
+			$status = 0;
+			$message = "修改失败";
+		}
+		return ['status'=>$status,'message'=>$message];
 	}
 	
 	/**
@@ -155,6 +195,23 @@ class FileManage extends Base{
 		}
 		closedir($handle);
 		return $arr;
+	}
+	
+	public function downloadfile(){
+		$filename = input('filename');
+		$file = $this->getpath().$filename;
+		
+		if (file_exists($file) == true){
+			header("Content-Disposition:attachment;filename=".$filename);
+			header("Accept-ranges:bytes");
+			header("Accept-length:".filesize($file));
+			readfile($file);
+// 			fopen($file,"r");
+		}else {
+			echo "该文件已被删除";
+		}
+		
+		return $this->view->fetch('public/test');
 	}
 	
 	public function getpath(){
